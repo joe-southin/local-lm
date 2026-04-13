@@ -34,6 +34,9 @@ planning/
 # Earlier paper drafts (v1, v2) — kept locally, not published
 paper/drafts/
 
+# Exploratory analysis PNGs — the canonical figures live in paper/figures/
+results/**/*.png
+
 # LaTeX build artefacts (keep .tex, .pdf; ignore intermediates)
 *.aux
 *.log

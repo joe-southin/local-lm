@@ -12,8 +12,7 @@ The paper PDF lives at [`paper/paper.pdf`](paper/paper.pdf); its Markdown source
 ├── judge_gemini.py            # Secondary judge (Gemini 2.5) over existing raw_answers.json
 ├── multi_judge_analysis.py    # Compares Opus vs Gemini judges (correlation, self-preference)
 ├── analyse_results.py         # Charts and summary tables from a results dir
-├── rejudge.py                 # Re-run judging without re-running inference
-├── rerun_opus.py              # Re-run just the Opus subject calls + rejudge
+├── rejudge.py                 # Re-run judging on an existing results dir
 ├── eval_questions.json        # 16 context-grounded Q&A items (factual / reasoning / synthesis / CoT)
 ├── models.json                # Model configs (GGUF paths + context sizes)
 ├── setup.sh                   # Installs llama.cpp + downloads GGUFs to ~/models
