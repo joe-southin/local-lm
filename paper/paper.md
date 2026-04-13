@@ -24,8 +24,9 @@ abstract: |
   to 55--75\% of frontier quality on chain-of-thought, revealing a
   task-dependent rather than uniform capability gap; (2) Qwen 2.5 7B displaces
   Llama 3.1 8B as the Pareto-optimal local model; (3) a mild temperature
-  ($t = 0.3$) outperforms greedy decoding for GLM and Gemma at statistical
-  significance, while top-p has no measurable effect; (4) Q8 quantisation
+  ($t = 0.3$) outperforms greedy decoding for GLM-4-9B and Gemma 4 E4B Q8 at
+  statistical significance, while top-p has no measurable effect; (4) Q8
+  quantisation
   provides no quality benefit over Q4 within the 8B class; (5)
   reasoning-distilled models (DeepSeek-R1-Distill) underperform on extractive
   tasks due to verbose chain-of-thought outputs; and (6) self-preference bias
@@ -35,6 +36,18 @@ abstract: |
   independent evaluation. We release a seven-step replication methodology, a
   model selection guide, the evaluation harness, question set, and complete
   results.
+keywords:
+  - local LLM inference
+  - quantisation
+  - sampling parameters
+  - chain-of-thought
+  - LLM-as-judge
+  - Apple Silicon
+  - consumer hardware
+  - Qwen 2.5
+  - Llama 3.1
+  - Gemma 4
+  - DeepSeek-R1
 ---
 
 <!-- All body sections complete. -->
@@ -90,10 +103,12 @@ We make six contributions:
    structure.
 
 3. **Evidence that mild temperature outperforms greedy decoding** on factual
-   Q&A for GLM and Gemma at statistical significance ($p < 0.05$), extending
-   the temperature findings of Renze and Guven [-@renze_effect_2024] from
-   full-precision large models to quantised small models. Top-p has no
-   measurable effect.
+   Q&A for GLM-4-9B and Gemma 4 E4B Q8 at statistical significance
+   ($p < 0.05$), extending the temperature findings of Renze and Guven
+   [-@renze_effect_2024] from full-precision large models to quantised small
+   models. Top-p has no measurable effect, and Gemma 4 E4B Q4 shows a small
+   non-significant preference for greedy, suggesting quantisation-dependent
+   temperature sensitivity within a model family.
 
 4. **A quantisation comparison** showing that Q8 precision provides no quality
    benefit over Q4 within the 8B class. Gemma's accuracy advantage over Llama
@@ -353,10 +368,10 @@ not permit concurrent model serving). The context window is set to 4,096 tokens
 for all local models, sufficient for the evaluation passages (all under 1,000
 tokens) plus the system prompt and generated response.
 
-No thermal management was applied beyond the laptop's default fan profile.
-Sustained inference workloads on passively-cooled M2 hardware are known to
-trigger thermal throttling after extended runs. We did not measure or control
-for this effect, and latency measurements should be interpreted as
+No thermal management was applied. The MacBook Air M2 uses passive (fanless)
+cooling, and sustained inference workloads on passively-cooled hardware are
+known to trigger thermal throttling after extended runs. We did not measure
+or control for this effect, and latency measurements should be interpreted as
 representative averages rather than guaranteed throughput under sustained load.
 
 ## Evaluation Task
@@ -575,17 +590,17 @@ a more robust evaluation at the cost of increased API spend.
 
 **Step 6: Record quality, latency, and token count jointly.** Quality-only or
 speed-only benchmarks leave practitioners unable to make tradeoff decisions. A
-quality-vs-latency scatter plot (Section 4.3) is the minimum viable deliverable
+quality-vs-latency scatter plot (Section 4.2) is the minimum viable deliverable
 for a practitioner-oriented evaluation.
 
 **Step 7: Report variance, not just means.** Run each parameter combination
 on all evaluation items and report standard deviations or confidence intervals.
 Temperature effects are often invisible in means but substantial in variance
-(Section 4.2). A sweep that reports only average scores at a single parameter
+(Section 4.1). A sweep that reports only average scores at a single parameter
 setting will miss this.
 
 The evaluation harness, model configurations, and the full question set are
-available at `[repository URL]`.
+available at <https://github.com/joe-southin/local-lm>.
 
 
 # Results
@@ -651,10 +666,11 @@ settings per model on the extractive items.
 : Best and worst parameter settings per model on extractive items, with composite score and delta between them.
 
 Wilcoxon signed-rank tests (Appendix D) show that $t = 0.3$ significantly
-outperforms $t = 0.0$ for GLM ($p < 0.001$) and Gemma ($p < 0.05$), but not
-for Llama ($p = 0.93$) or Opus ($p = 1.0$). The direction of the effect is
-nonetheless positive for four of five local models; only Llama Q4 is
-essentially indifferent.
+outperforms $t = 0.0$ for GLM-4-9B Q4 ($p < 0.001$) and Gemma 4 E4B Q8
+($p < 0.05$), but not for Llama Q4 ($p = 0.93$) or Opus ($p = 1.0$). Gemma
+4 E4B at Q4 shows a small non-significant decrease at $t = 0.3$ ($p = 0.06$),
+in contrast to its Q8 variant, suggesting that optimal sampling temperature
+within the Gemma family depends on quantisation level.
 
 This is consistent with "Sample Smart, Not Hard" [@sample_smart_2025], which
 shows that controlled stochastic sampling outperforms greedy decoding on
@@ -665,13 +681,17 @@ to help most models escape suboptimal greedy paths.
 
 The practical implication is immediate: **use $t = 0.3$, not $t = 0.0$, as
 the default for local inference on extractive tasks.** The quality gain is
-small but consistent, never worse than greedy for any model tested, and
-significantly better for two of five. There is no latency cost; temperature
-is a softmax scaling parameter, not a compute multiplier.
+small but consistent, not significantly worse than greedy for any model
+tested, and significantly better for two of five families. There is no
+latency cost; temperature is a softmax scaling parameter, not a compute
+multiplier. The one caveat, reported in Appendix D, is that Gemma 4 E4B Q4
+shows a small (non-significant) *decrease* at $t = 0.3$, suggesting that
+within the Gemma family the optimal sampling strategy may be
+quantisation-dependent.
 
 ### Cross-family parameter sensitivity
 
-![Parameter heatmap for four representative models (Opus, Qwen, Gemma Q4, Llama Q4): mean composite score for each temperature $\times$ top-p combination. GLM (not shown) has the widest range (0.31 points) among local models; Opus is uniformly near-perfect.](fig2_param_heatmap.pdf){#fig:heatmap width=100%}
+![Parameter heatmap for all eight model configurations: mean composite score for each temperature $\times$ top-p combination. Opus (top left) is uniformly near-perfect. GLM (bottom centre-right) has the widest range among local models (0.31 points); Qwen (top centre-left) is the most parameter-robust (0.12 points). DeepSeek (bottom right) has the lowest overall scores, consistent with its extractive-task misfit.](fig2_param_heatmap.pdf){#fig:heatmap width=100%}
 
 The parameter heatmap (Figure 2) illustrates a finding with no direct
 comparator in the literature: **model families differ substantially in
@@ -775,9 +795,9 @@ Table 5 presents the comparison across all eight model configurations on the
 | Llama 3.1 8B Q4             | 4.74     | 4.35         | 4.91      | 7.2 s   | 144 |
 | Llama 3.1 8B Q5             | 4.78     | 4.31         | 4.97      | 8.7 s   | 144 |
 | GLM-4-9B Q4                 | 4.68     | 4.29         | 4.77      | 7.1 s   | 144 |
-| DeepSeek-R1-Distill 7B      | 4.33     | 4.26         | 4.60      | 56.9 s  | 144 |
+| DeepSeek-R1-Distill 7B      | 4.33     | 4.26         | 4.60      | 56.9 s  | 143 |
 
-: Model comparison across extractive items (144 responses per model).
+: Model comparison across extractive items (144 responses per model, minus parse failures).
 
 **Qwen 2.5 7B is the new best local model overall.** It beats Llama Q4 on
 accuracy (4.83 vs.\ 4.74), completeness (4.40 vs.\ 4.35), and latency (6.8 s
@@ -1015,7 +1035,7 @@ Despite producing the most text among general-purpose models, Gemma achieves
 the second-lowest completeness score (4.30 at Q8, 4.38 at Q4) while Qwen and
 Llama, with moderate token counts, achieve higher completeness (4.40 and 4.35
 respectively). DeepSeek shows the clearest anticorrelation: highest token
-counts on CoT but completeness of only 2.77, below Qwen (3.30) and Llama
+counts on CoT but completeness of only 2.56, below Qwen (3.30) and Llama
 (3.35). This anticorrelation between verbosity and completeness is consistent
 with "Verbosity $\neq$ Veracity" [@verbosity_veracity_2024], which demonstrates
 that verbose LLM responses correlate with high uncertainty and lower accuracy.
@@ -1143,7 +1163,8 @@ Pareto-optimal at 94% of frontier quality and 6.8 seconds per response, and
 it is the only local model to achieve perfect scores on the factual category.
 Llama 3.1 8B Q4 remains an excellent alternative with a larger community
 ecosystem. For latency-tolerant workloads where accuracy is paramount, Gemma
-4 E4B Q4 offers the highest local accuracy (4.90) at 25 seconds. For
+4 E4B at Q4 offers the highest local accuracy (4.90, essentially tied with
+Q8's 4.92) at 25 seconds, and is preferred over Q8 for memory efficiency. For
 chain-of-thought workloads, no local model is a strong choice at this
 parameter scale: Gemma Q4 leads on CoT accuracy (3.26 under Opus, 3.09 under
 Gemini) but scores poorly on completeness (2.45). The frontier gap is large
@@ -1160,10 +1181,12 @@ Reasoning-specialised models should be matched to reasoning workloads.
 
 **Sampling parameters.** Use $t = 0.3$, not $t = 0.0$, as the default
 temperature. Four of five local families improve or tie at $t = 0.3$
-versus greedy, with statistically significant improvements for GLM
-($p < 0.001$) and Gemma ($p < 0.05$). There is no latency cost. Do not spend
-time tuning top-p for extractive Q&A; hold it constant at 1.0. If deploying
-GLM, invest in parameter tuning; the 0.31-point sensitivity range means
+versus greedy, with statistically significant improvements for GLM-4-9B Q4
+($p < 0.001$) and Gemma 4 E4B Q8 ($p < 0.05$). Gemma 4 E4B Q4 is a narrow
+exception that slightly favours greedy ($p = 0.06$). There is no latency
+cost. Do not spend time tuning top-p for extractive Q&A; hold it constant
+at 1.0. If deploying GLM, invest in parameter tuning; the 0.31-point
+sensitivity range means
 defaults may leave substantial quality on the table.
 
 **Quantisation level.** For models in the 7--9B range on 16 GB hardware,
@@ -1375,7 +1398,8 @@ scores on any single category (factual extraction).
 
 Third, a mild temperature ($t = 0.3$) outperforms greedy decoding for four
 of five local model families; the improvement is statistically significant
-for GLM ($p < 0.001$) and Gemma ($p < 0.05$). Top-p has no measurable effect
+for GLM-4-9B Q4 ($p < 0.001$) and Gemma 4 E4B Q8 ($p < 0.05$). Top-p has no
+measurable effect
 on extractive Q&A quality. These findings extend the temperature results of
 Renze and Guven [-@renze_effect_2024], established on full-precision large
 models, to the quantised small-model regime. Model families differ
@@ -1402,10 +1426,8 @@ hardware configuration. We provide a generalised seven-step methodology
 (Section 3.7) for replication on other hardware and model configurations, a
 model selection guide (Section 5.1) for practitioners deploying these models
 today, and we release the evaluation harness, question set, and full results
-(both judges' scores) to support extension.
-
-<!-- The evaluation harness, model configurations, question set, and complete
-results are available at `[repository URL]`. -->
+(both judges' scores) to support extension. All artefacts are available at
+<https://github.com/joe-southin/local-lm>.
 
 
 # Appendix A: Evaluation Question Set {-}
@@ -1520,7 +1542,7 @@ The passage indicates that late adoption yields diminished returns and the
 **Claude Opus 4.6 / synthesis_03 at *t* = 0.0, *p* = 0.5**
 Score: 14/15 (accuracy 5, completeness 4, coherence 5). 223 tokens, 5.4s.
 
-The only response in the dataset where Opus did not receive a perfect score.
+The only extractive response where Opus did not receive a perfect score.
 The judge awarded 4/5 on completeness, noting the answer covered the main
 challenges and solutions but could have explicitly mentioned the need for
 improved recycling infrastructure as a distinct path forward.

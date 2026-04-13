@@ -27,7 +27,16 @@
 \usepackage{float}
 \usepackage{caption}
 \captionsetup{font=small,labelfont=bf}
-\graphicspath{{figures_v3/}}
+\graphicspath{{figures/}}
+
+% Permissive float placement (reduce "float too large to fit" issues)
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.7}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
 
 % ---- Fix pandoc longtable captionless counter ----
 \newcounter{none}
@@ -134,6 +143,11 @@
 $if(abstract)$
 \begin{abstract}
 \noindent $abstract$
+$if(keywords)$
+
+\vspace{0.8em}
+\noindent\textbf{Keywords:} $for(keywords)$$keywords$$sep$; $endfor$.
+$endif$
 \end{abstract}
 $endif$
 

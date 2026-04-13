@@ -82,10 +82,12 @@ def get_style(model_name):
 
 
 def load_all_scores(base="results"):
-    """Load and combine scores from all four experiment directories.
+    """Load and combine scores from all experiment directories.
 
     Deduplicates by (model, question_id, temperature, top_p): later runs take
-    precedence over earlier runs for the same configuration.
+    precedence over earlier runs for the same configuration. The extended
+    DeepSeek CoT run is listed last so it overrides the original timeout-
+    affected scores for that model on cot_02-cot_04.
     """
     base = Path(base)
     sources = [
@@ -93,6 +95,7 @@ def load_all_scores(base="results"):
         "quant_comparison",
         "new_models_baseline",
         "cot_sweep",
+        "cot_sweep_deepseek_extended",
     ]
     combined = {}
     for src in sources:
@@ -109,7 +112,8 @@ def load_all_scores(base="results"):
 def load_all_answers(base="results"):
     base = Path(base)
     sources = ["full_sweep", "quant_comparison",
-               "new_models_baseline", "cot_sweep"]
+               "new_models_baseline", "cot_sweep",
+               "cot_sweep_deepseek_extended"]
     combined = {}
     for src in sources:
         path = base / src / "raw_answers.json"
@@ -132,6 +136,9 @@ def fig_score_vs_temperature(scores, out_dir):
 
     data = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
     for s in scores:
+        # Exclude failure scores (any dimension <= 0 indicates timeout or parse error)
+        if s["accuracy"] <= 0 or s["completeness"] <= 0 or s["coherence"] <= 0:
+            continue
         composite = (s["accuracy"] + s["completeness"] + s["coherence"]) / 3
         cat = s["question_id"].split("_")[0]
         if cat in categories:
@@ -185,14 +192,16 @@ def fig_score_vs_temperature(scores, out_dir):
 
 
 # --------------------------------------------------------------------------
-# Figure 2: Parameter heatmap for top 4 models
+# Figure 2: Parameter heatmap for all 8 model configurations (4x2 grid)
 # --------------------------------------------------------------------------
 def fig_param_heatmap(scores, out_dir):
-    # Show the 4 most important models to keep the figure readable:
-    # Opus (frontier), Qwen (new best local), Gemma Q4 (accuracy leader),
-    # Llama Q4 (established baseline)
-    featured = ["Claude Opus 4.6", "Qwen 2.5 7B",
-                "Gemma 4 E4B Q4", "Llama 3.1 8B Q4"]
+    # Show all 8 model configurations in a 4x2 grid.
+    # Row 1: frontier + three Pareto-competitive local models
+    # Row 2: quant variants, parameter-sensitive, and reasoning-distilled models
+    featured = [
+        "Claude Opus 4.6", "Qwen 2.5 7B", "Gemma 4 E4B Q4", "Llama 3.1 8B Q4",
+        "Gemma 4 E4B Q8", "Llama 3.1 8B Q5", "GLM-4-9B-Chat Q4", "DeepSeek-R1-Distill 7B",
+    ]
     # Use only baseline (non-CoT) scores
     filtered = [s for s in scores
                 if s["model_name"] in featured
@@ -201,10 +210,12 @@ def fig_param_heatmap(scores, out_dir):
     temps = sorted(set(s["temperature"] for s in filtered))
     top_ps = sorted(set(s["top_p"] for s in filtered))
 
-    n = len(featured)
-    fig, axes = plt.subplots(1, n, figsize=(6.8, 2.8), sharey=True)
+    fig, axes = plt.subplots(2, 4, figsize=(6.8, 4.2), sharey=True, sharex=True)
+    axes_flat = axes.flatten()
 
+    im = None
     for idx, model in enumerate(featured):
+        ax = axes_flat[idx]
         sums = np.zeros((len(temps), len(top_ps)))
         counts = np.zeros_like(sums)
         for s in filtered:
@@ -218,29 +229,29 @@ def fig_param_heatmap(scores, out_dir):
         matrix = np.zeros_like(sums)
         np.divide(sums, counts, out=matrix, where=counts > 0)
 
-        im = axes[idx].imshow(matrix, cmap="RdYlGn", vmin=4.0, vmax=5.0,
-                              aspect="auto")
-        axes[idx].set_xticks(range(len(top_ps)))
-        axes[idx].set_xticklabels([f"{p}" for p in top_ps], fontsize=9)
-        axes[idx].set_yticks(range(len(temps)))
-        if idx == 0:
-            axes[idx].set_yticklabels([f"{t}" for t in temps], fontsize=9)
-            axes[idx].set_ylabel("Temperature")
+        im = ax.imshow(matrix, cmap="RdYlGn", vmin=4.0, vmax=5.0, aspect="auto")
+        ax.set_xticks(range(len(top_ps)))
+        ax.set_yticks(range(len(temps)))
+        if idx % 4 == 0:
+            ax.set_yticklabels([f"{t}" for t in temps], fontsize=8)
+            ax.set_ylabel("Temp.", fontsize=9)
+        if idx // 4 == 1:
+            ax.set_xticklabels([f"{p}" for p in top_ps], fontsize=8)
+            ax.set_xlabel("Top-p", fontsize=9)
         else:
-            axes[idx].set_yticklabels([])
-        axes[idx].set_xlabel("Top-p", fontsize=9)
+            ax.set_xticklabels([])
         short = SHORT_NAMES.get(model, model)
-        axes[idx].set_title(short, fontsize=9, pad=3)
+        ax.set_title(short, fontsize=9, pad=2)
 
         for i in range(len(temps)):
             for j in range(len(top_ps)):
                 val = matrix[i][j]
                 if val > 0:
-                    axes[idx].text(j, i, f"{val:.2f}", ha="center", va="center",
-                                   fontsize=8, fontweight="bold",
-                                   color="white" if val < 4.4 else "black")
+                    ax.text(j, i, f"{val:.2f}", ha="center", va="center",
+                            fontsize=7, fontweight="bold",
+                            color="white" if val < 4.4 else "black")
 
-    fig.subplots_adjust(right=0.90, wspace=0.08)
+    fig.subplots_adjust(right=0.90, wspace=0.08, hspace=0.25)
     cbar_ax = fig.add_axes([0.92, 0.15, 0.015, 0.7])
     fig.colorbar(im, cax=cbar_ax, label="Score")
     fig.savefig(Path(out_dir) / "fig2_param_heatmap.pdf")
