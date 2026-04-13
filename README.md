@@ -25,7 +25,6 @@ The paper PDF lives at [`paper/paper.pdf`](paper/paper.pdf); its Markdown source
 │   ├── cot_sweep_deepseek_extended/
 │   └── cot_deepseek_quick_validation/
 ├── paper/                     # Paper sources + final figures
-├── reviews/                   # Literature review artefacts
 └── tests/                     # pytest suite (schema + pure-function smoke tests)
 ```
 
