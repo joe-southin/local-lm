@@ -1,0 +1,7 @@
+model,category,avg_accuracy,avg_completeness,avg_coherence,avg_latency,n
+DeepSeek-R1-Distill 7B,factual,4.98,4.79,4.98,35.12,48
+DeepSeek-R1-Distill 7B,reasoning,3.57,3.7,4.0,77.58,47
+DeepSeek-R1-Distill 7B,synthesis,4.44,4.29,4.83,58.05,48
+Qwen 2.5 7B,factual,5.0,5.0,5.0,3.85,48
+Qwen 2.5 7B,reasoning,4.79,4.15,4.81,6.87,48
+Qwen 2.5 7B,synthesis,4.69,4.06,4.81,9.77,48

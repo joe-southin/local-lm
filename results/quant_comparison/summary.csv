@@ -1,0 +1,7 @@
+model,category,avg_accuracy,avg_completeness,avg_coherence,avg_latency,n
+Gemma 4 E4B Q4,factual,5.0,5.0,5.0,14.59,48
+Gemma 4 E4B Q4,reasoning,4.75,3.92,4.67,27.43,48
+Gemma 4 E4B Q4,synthesis,4.96,4.23,5.0,34.11,48
+Llama 3.1 8B Q5,factual,5.0,4.81,5.0,3.65,48
+Llama 3.1 8B Q5,reasoning,4.6,3.98,4.92,8.49,48
+Llama 3.1 8B Q5,synthesis,4.73,4.15,4.98,13.92,48

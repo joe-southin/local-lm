@@ -1,0 +1,13 @@
+model,category,avg_accuracy,avg_completeness,avg_coherence,avg_latency,n
+Claude Opus 4.6,factual,5.0,5.0,5.0,2.02,4
+Claude Opus 4.6,reasoning,5.0,5.0,5.0,5.11,4
+Claude Opus 4.6,synthesis,5.0,5.0,5.0,6.66,4
+GLM-4-9B-Chat Q4,factual,5.0,5.0,5.0,11.46,4
+GLM-4-9B-Chat Q4,reasoning,3.5,3.75,4.0,22.84,4
+GLM-4-9B-Chat Q4,synthesis,5.0,3.75,4.5,22.28,4
+Gemma 4 E4B Q8,factual,5.0,5.0,5.0,46.12,4
+Gemma 4 E4B Q8,reasoning,4.75,3.25,4.25,95.61,4
+Gemma 4 E4B Q8,synthesis,5.0,4.25,5.0,161.72,4
+Llama 3.1 8B Q4,factual,5.0,4.75,5.0,9.62,4
+Llama 3.1 8B Q4,reasoning,4.75,4.25,5.0,21.02,4
+Llama 3.1 8B Q4,synthesis,4.5,4.5,4.75,30.34,4

@@ -1,0 +1,482 @@
+[
+  {
+    "question_id": "factual_01",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that 87 parish churches were destroyed and that Christopher Wren redesigned many of them afterwards. Both facts are accurate according to the context. The answer addresses both parts of the question fully. It is concise and well-structured. While it doesn't mention St Paul's Cathedral specifically (which the reference answer includes), the question only asks who redesigned the churches, not for additional details, so this is not a completeness issue."
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies both the location of the light-dependent reactions (thylakoid membranes of chloroplasts) and the key enzyme of the Calvin cycle (RuBisCO), matching the reference answer exactly. It addresses both parts of the question and is clearly and concisely stated."
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that continuous habitation began in November 2000 and that the solar arrays generate up to 120 kilowatts of electricity, matching both the context and the reference answer exactly. It addresses both parts of the question in a clear, concise sentence."
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that approximately 1.5% of the human genome codes for proteins and that there are roughly 20,000 to 25,000 protein-coding genes. This matches both the context and the reference answer exactly. It addresses both parts of the question clearly and concisely."
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies the financial incentive: customers claimed takeout to pay 8% instead of 10%. It is factually accurate and well-structured. However, it doesn't explicitly mention that customers were misrepresenting their actual intention (they still planned to eat in-store), which is a key nuance of the reference answer. The reference answer highlights the deceptive aspect\u2014that customers said 'take out' even though they intended to eat at the in-store seating area. The evaluated answer implies this but doesn't state it as clearly."
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 3,
+    "completeness": 4,
+    "coherence": 3,
+    "judge_reasoning": "The answer identifies most of the key factors from the passage: larger homes, rising construction costs, and income not keeping pace with prices. However, point 5 contains a factual error \u2014 it says 'the decrease in the ratio of median home price to median household income' when the passage clearly states the ratio INCREASED from 3.5:1 to 5.5:1. This contradicts the passage and the answer's own point 4. Point 2 about shrinking household size is mentioned but its connection to declining homeownership is vague and not well-supported by the passage's logic. The answer also doesn't clearly synthesize how these factors compound to disproportionately affect young adults specifically, which the reference answer does. The structure is clear with numbered points, but the internal contradiction between points 4 and 5 hurts coherence."
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 2,
+    "completeness": 3,
+    "coherence": 3,
+    "judge_reasoning": "The answer acknowledges the key data points from the passage \u2014 late adopters see only 20-40% defect reduction and TDD adds implementation time \u2014 but reaches a conclusion that contradicts what the evidence supports. The passage clearly states TDD adds 15-35% to implementation time, which is directly problematic for a project with a tight deadline that is already 60% complete. The answer downplays this critical constraint and recommends adoption despite the tight deadline, which is not well-supported by the passage. The reference answer correctly concludes that adoption is inadvisable given the immediate cost of slower development and the reduced benefits of late adoption. The answer does mention the reduced benefits for late adopters and touches on maintenance costs, giving it partial completeness, but the core recommendation is inaccurate given the context. The writing is coherent and organized, though the reasoning is flawed."
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 4,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies the causal chain: Nile perch drove cichlid species to extinction, those cichlids were algae-eaters, so algae grew unchecked and water clarity decreased. It also correctly predicts that declining Nile perch populations could allow cichlid recovery and improved water clarity. The answer is well-structured and clear. A minor issue is the phrasing 'remaining cichlid species' which slightly mischaracterizes the situation\u2014the context says some previously thought-extinct species began reappearing, not just that remaining ones persisted. But this is a small imprecision. Overall it closely matches the reference answer."
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 4,
+    "judge_reasoning": "The answer is factually accurate, correctly citing the 50%+ wind electricity share, consistent policy since the 1970s, subsidies for cooperatives, community ownership, high electricity prices, and reliance on interconnectors. On completeness, it covers most key points but omits some specific details present in the reference answer: the 33,000 jobs figure, the \u20ac8 billion in exports (mentioned only vaguely as 'significant workforce and exports'), the specific countries involved in interconnectors (Norway and Germany), and the framing that energy security is partly reliant on neighbouring countries. The mention of the oil crisis as the catalyst is implicit ('since the 1970s') but not explicitly stated. On coherence, the answer is reasonably well-structured but reads as a single dense sentence-pair rather than a clearly organized summary; it could benefit from slightly more structure or elaboration to improve readability."
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 3,
+    "coherence": 4,
+    "judge_reasoning": "The answer is factually correct \u2014 it mentions productivity gains for routine tasks, employee preference for flexibility, reduced collaboration, younger worker loneliness, and economic impacts on commercial real estate and downtown businesses. However, it lacks the specific data points that the context provides and the reference answer includes (13% productivity boost, 87% preference, 25% drop in patent co-authorships, 30-60% revenue declines, 18.2% vacancy rates). It also doesn't explicitly frame the trade-offs across different stakeholders as clearly as the reference answer does (e.g., suburban economies as winners, early-career employees and city centres as losers, slower career progression). The answer is coherent and well-structured but reads as a surface-level summary rather than a thorough analysis covering all parts of the question."
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually correct on all points mentioned. It covers the main sustainability challenges (water consumption, cobalt sourcing ethics, low recycling rates, environmental impact in arid regions) and the promising alternatives (LFP, sodium-ion, solid-state). However, it lacks some specific details present in the reference answer: the 5% recycling figure, the mention that cobalt issues are specifically linked to child labour in the DRC, and the specific water consumption figure. It also doesn't mention improving recycling infrastructure as a promising path forward, which the reference answer includes. The answer is well-structured and easy to follow, with a clear division between challenges and solutions."
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "GLM-4-9B-Chat Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate on all points, correctly citing the 80% figure, ethnic integration quotas, CPF usage, subsidies, the depreciating asset problem, CPF eligibility restrictions for older flats, and the 4% SERS figure. It is well-structured with a clear strengths/challenges breakdown. On completeness, it covers nearly everything but omits mention of VERS (Voluntary Early Redevelopment Scheme), which the reference answer and context both include as a government response to ageing estates. It also doesn't explicitly note the 99-year lease structure as a defining feature, though it alludes to it via the depreciating asset discussion. These are minor omissions, so completeness is slightly below full marks."
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that 87 parish churches were destroyed and that Christopher Wren was commissioned to redesign many of them. It addresses both parts of the question accurately and is clearly written. While it doesn't mention St Paul's Cathedral specifically (which the reference answer includes), the question only asks who redesigned the churches, not for additional details, so this is not a completeness issue."
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually correct, directly matching the context and reference answer. It addresses both parts of the question (location of light-dependent reactions and key enzyme of the Calvin cycle). It is clearly and concisely stated in a single well-structured sentence."
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that continuous habitation began in November 2000 and that the solar arrays generate up to 120 kilowatts of electricity, matching both the context and the reference answer exactly. It addresses both parts of the question in a clear, concise sentence."
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that about 1.5% of the genome codes for proteins and that there are roughly 20,000 to 25,000 protein-coding genes. This matches both the context and the reference answer exactly. It addresses both parts of the question clearly and concisely."
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 3,
+    "coherence": 4,
+    "judge_reasoning": "The answer correctly identifies the tax rate difference between dine-in (10%) and takeout (8%) as the reason. However, it fails to explicitly state the key behavioral insight: that customers were misrepresenting their intention (claiming takeout while planning to eat in-store) in order to pay the lower rate. The answer essentially restates the rule difference from the context but doesn't fully connect it to the customers' motivation\u2014the financial incentive to misrepresent their dining intention. It's accurate but incomplete in addressing the 'why' of the behavior."
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies the key factors from the passage: rising construction costs (40%), larger home sizes (30%), stagnant income growth (15%), and the worsening price-to-income ratio (3.5:1 to 5.5:1). All figures are accurate. It is well-structured with clear bullet points. However, it falls slightly short on completeness because it doesn't explicitly connect why young adults specifically were disproportionately affected \u2014 the reference answer notes that younger adults with lower incomes were disproportionately impacted by the widening gap. The evaluated answer implies this but doesn't state it directly. It also doesn't mention the shrinking household size, though that's a minor point. Overall, it's a strong answer that covers the main factors."
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 4,
+    "completeness": 3,
+    "coherence": 4,
+    "judge_reasoning": "The answer correctly identifies the reduced benefits of late TDD adoption (20-40% vs 40-90% defect reduction), which is accurate per the passage. However, it fails to address several key factors: (1) the 15-35% increase in implementation time, which is critically important given the tight deadline constraint mentioned in the question; (2) the long-term benefits like 60% less debugging time and lower maintenance costs; and (3) it doesn't provide a clear recommendation \u2014 it says benefits 'might' be smaller but doesn't explicitly advise against adoption or explain why the tight deadline makes this particularly problematic. The answer is hedging rather than giving a definitive recommendation. It's well-structured but incomplete in its analysis."
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 3,
+    "coherence": 4,
+    "judge_reasoning": "The answer correctly identifies the causal chain: cichlid extinction led to unchecked algae growth, which reduced water clarity. It also correctly notes that cichlid species are reappearing as Nile perch decline. However, the answer is incomplete because it does not explicitly connect the reappearance of cichlids to the potential improvement in water clarity. The question asks 'what might happen to water clarity' and the answer fails to make that inferential step \u2014 it merely states cichlids are reappearing without explaining the expected consequence for water clarity. The phrasing 'many extinct cichlid species, which were algae-eaters, had gone extinct' is also somewhat redundant/awkward, slightly hurting coherence."
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate, covering all key achievements (50%+ wind electricity, 33,000 jobs, \u20ac8B+ exports, community cooperatives, post-1970s policy consistency) and both key vulnerabilities (highest electricity prices in Europe, reliance on interconnectors with Norway and Germany for balancing). It is well-structured with a clear division between achievements and vulnerabilities, and easy to follow. All major points from the reference answer are addressed."
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate, correctly citing all key statistics from the context (13% productivity gain, 87% preference, 25% patent co-authorship drop, 18.2% vacancy rate, 30-60% revenue declines). It covers all major trade-offs mentioned in the context and reference answer. It is well-structured with clear categorization of benefits and costs across stakeholders. The only minor gap compared to the reference answer is that it doesn't explicitly mention 'winners' like suburban economies, but this is a minor inference not directly stated in the context either. The answer is comprehensive, well-organized, and easy to follow."
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer accurately captures all three key sustainability challenges (water consumption, cobalt sourcing ethics, low recycling rates) with specific figures from the context. It also correctly identifies the three promising alternative battery chemistries (LFP, sodium-ion, solid-state) and their respective advantages. The only minor gap compared to the reference answer is that it doesn't explicitly mention improving recycling infrastructure as a critical path forward, and it doesn't note that LFP batteries are already gaining market share or that solid-state batteries remain years from commercial viability. The structure is clear and well-organized with a logical separation between challenges and solutions."
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Gemma 4 E4B Q8",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate throughout, correctly citing the 80% figure, ethnic integration quotas, income ceilings, CPF usage, the 60-year threshold, and the 4% SERS statistic. It is well-structured with clear headings separating strengths and challenges. On completeness, it covers most key points but omits the rising resale prices creating paper wealth for owners (a notable strength mentioned in both the context and reference answer) and does not mention VERS as an additional government scheme. These are minor omissions but prevent a perfect completeness score."
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that 87 parish churches were destroyed and that Christopher Wren was commissioned to redesign many of them. Both facts are accurate per the context. The answer is slightly less complete than the reference because it omits the mention of St Paul's Cathedral as Wren's masterpiece, which is a relevant detail, but it does fully address both parts of the question (how many churches and who redesigned them). The answer is well-structured and clear."
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies both the location of the light-dependent reactions (thylakoid membranes of chloroplasts) and the key enzyme of the Calvin cycle (RuBisCO), matching the reference answer exactly. It addresses both parts of the question clearly and concisely."
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that continuous habitation began in November 2000 and that the solar arrays generate up to 120 kilowatts of electricity, matching both the context and the reference answer exactly. It addresses both parts of the question clearly and concisely."
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that about 1.5% of the human genome codes for proteins and that there are approximately 20,000 to 25,000 protein-coding genes. This matches both the context and the reference answer exactly. It addresses both parts of the question clearly and concisely."
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies the financial incentive: customers claimed takeout to pay 8% instead of 10%. It is factually accurate and well-structured. However, it doesn't explicitly mention that customers were misrepresenting their intentions (i.e., they still planned to eat in-store despite claiming takeout), which is a key part of the reference answer. The deceptive behavior aspect is only implied rather than stated directly, so completeness is slightly reduced."
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 4,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies the key factors: the rising price-to-income ratio (3.5:1 to 5.5:1), the mismatch between income growth (15%) and rising home sizes (30%) and construction costs (40%). These are well-supported by the passage. Point 3 about shrinking household size is speculative \u2014 the passage doesn't link smaller households to young adults living with parents or reduced demand for single-family homes. This is an inference not directly supported by the data, which slightly reduces accuracy. However, the answer covers the main affordability drivers comprehensively and is well-structured and clear. It addresses all the major parts of the question, though it could have more explicitly noted that younger adults with lower incomes are disproportionately affected by the affordability gap, as the reference answer does."
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate, correctly citing the 20-40% defect reduction for late adopters and the increased implementation time. It correctly recommends against adoption. It's well-structured and easy to follow. However, it's slightly less complete than the reference answer: it doesn't explicitly mention the 15-35% longer implementation time figure, doesn't contrast the 20-40% with the 40-90% from-the-start benefit as clearly, doesn't mention the long-term vs short-term tradeoff (maintenance costs, debugging time), and doesn't suggest adopting TDD from the start on the next project. These are minor omissions but they make the answer slightly less thorough than ideal."
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies the causal chain: Nile perch drove algae-eating cichlids to extinction, leading to unchecked algae growth and reduced water clarity. It also correctly predicts that declining Nile perch populations could allow cichlid recovery, restoring algae control and improving water clarity. All parts of the question are addressed thoroughly, and the answer is well-structured and clearly written, closely matching the reference answer."
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate, correctly citing all key statistics (50%+ wind electricity, 33,000 jobs, \u20ac8B exports) and details from the context. It addresses both achievements and vulnerabilities comprehensively, covering the historical policy roots (1970s oil crisis response, cooperative model, public buy-in), the economic achievements, and the two main vulnerabilities (high electricity prices and dependence on interconnectors). The answer is well-structured with clear bullet points separating achievements from vulnerabilities, making it easy to follow. It also adds a slight interpretive note about vulnerability to 'disruptions in these supply chains,' which is a reasonable inference. The only very minor omission is that it doesn't explicitly mention the 1970s oil crisis as the origin point as prominently as the reference answer, but it does reference 'early subsidies' which implicitly covers this. Overall, this is an excellent response."
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 3,
+    "completeness": 4,
+    "coherence": 4,
+    "judge_reasoning": "The answer covers most key points from the context and reference answer, including productivity gains, employee preference, collaboration decline, downtown business impacts, and younger worker disadvantages. However, there is a notable accuracy error: listing rising commercial real estate vacancy rates as a 'benefit' (reduced commercial real estate costs) is misleading. Higher vacancy rates represent a cost to property owners, landlords, and city economies \u2014 not a benefit. This is a misinterpretation of the data. The answer could also have been slightly more nuanced by mentioning the distinction between different stakeholder groups (e.g., suburban economies as winners), as the reference answer does. The structure is clear and easy to follow, earning good marks for coherence."
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 4,
+    "coherence": 5,
+    "judge_reasoning": "The answer accurately captures all three sustainability challenges (water consumption, cobalt sourcing, low recycling rates) with correct details from the context, and correctly identifies the three promising alternative battery chemistries with appropriate caveats. It is well-structured with clear numbered lists. The only minor gap compared to the reference answer is that it does not explicitly mention improving recycling infrastructure as a promising path forward \u2014 it identifies low recycling as a challenge but doesn't list increased recycling as part of the solution. This is a small completeness issue."
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Llama 3.1 8B Q4",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate throughout, correctly citing the 80% figure, 99-year lease structure, CPF usage, ethnic quotas, income ceilings, the 60-year threshold for CPF eligibility, and the 4% SERS figure. It addresses all key strengths and challenges identified in the context and reference answer: high coverage, subsidies, social mixing quotas, wealth creation, the depreciating-asset problem, and the limited reach of SERS/VERS. The structured format with clear bullet points under 'Strengths' and 'Emerging Challenges' headings makes it easy to follow. The only very minor note is that the third challenge point is slightly redundant with the second, but this does not materially detract from quality."
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that 87 parish churches were destroyed and that Christopher Wren was commissioned to redesign many of them. It addresses both parts of the question fully and is clearly presented with appropriate formatting."
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies both the location of the light-dependent reactions (thylakoid membranes of chloroplasts) and the key enzyme of the Calvin cycle (RuBisCO with its full name). It matches the reference answer exactly in content, addresses both parts of the question, and is clearly structured and easy to understand."
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly states that continuous habitation began in November 2000 and that the solar arrays generate up to 120 kilowatts of electricity, matching both the context and the reference answer exactly. It addresses both parts of the question clearly and concisely."
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer exactly matches the reference answer and the context, providing both the percentage (1.5%) and the range of protein-coding genes (20,000 to 25,000). It is clearly stated and well-formatted."
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer correctly identifies the financial incentive (8% vs 10% tax rate), explains the mechanism (claiming takeout to get the lower rate), and notes the misrepresentation aspect (saying takeout while intending to eat in-store). It matches the reference answer perfectly in substance and is clearly written with helpful formatting."
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer accurately identifies all the key factors from the passage: the 30% increase in home size, the 40% rise in construction costs, the modest 15% income growth, and the resulting shift in the price-to-income ratio from 3.5:1 to 5.5:1. It correctly synthesizes these factors to explain why young adults faced declining homeownership rates. The answer is well-structured with clear numbered points and a concise summary. It addresses all parts of the question thoroughly and is easy to follow. The only minor omission compared to the reference answer is the explicit note that younger adults with lower incomes were disproportionately affected, but this is implied by the overall argument and the answer still fully addresses the question."
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate, citing the correct statistics from the passage (20-40% defect reduction for late adopters, 15-35% longer implementation time, 60% less debugging after release, two-year maintenance benefits). It addresses all parts of the question: whether to adopt TDD now (no), and why not (diminished benefits from late adoption, time cost conflicting with tight deadline, long-term benefits not applicable to immediate situation). The answer is exceptionally well-structured with clear headers, numbered points, bold emphasis on key figures, and a concise summary. It aligns perfectly with the reference answer while providing even more thorough reasoning."
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer accurately explains the causal chain: Nile perch \u2192 cichlid extinction (including algae-eaters) \u2192 unchecked algae growth \u2192 reduced water clarity. It also correctly predicts that declining Nile perch populations could allow cichlid recovery, which may restore algae control and improve water clarity. All elements from the reference answer are covered. The response is well-structured with clear headings and logical flow."
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate, covering all key data points from the context (50%+ wind electricity, \u20ac8B exports, 33,000 jobs, 1970s origins, cooperative ownership, highest electricity prices, interconnector dependency on Norway and Germany). It addresses both achievements and vulnerabilities comprehensively, matching and even slightly elaborating on the reference answer (e.g., noting the strategic dependency implication). The structure is clear and well-organized with headers and bullet points, making it easy to follow."
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate, citing all key statistics from the context correctly (13% productivity gain, 87% preference, 25% patent co-authorship drop, 18.2% vacancy rate, 30-60% revenue declines, younger worker impacts). It covers all stakeholders mentioned: individual workers, collaborative teams, commercial real estate, downtown businesses, and younger workers. It also adds the useful detail about the shift from 5% to 28%, which enriches the response. The structure is clear and well-organized with a benefits/costs framework and a concise summary that captures the uneven distribution of impacts across stakeholders. It aligns closely with the reference answer while being slightly more detailed and better structured."
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer accurately captures all three sustainability challenges (water consumption, cobalt ethics, low recycling rates) with correct figures and details from the context. It also covers all three promising alternative chemistries (LFP, sodium-ion, solid-state) with appropriate caveats about their current status. The formatting with clear headers and bullet points makes it very easy to read and well-organized. The only minor omission compared to the reference answer is the explicit mention of improving recycling infrastructure as a solution, but the low recycling rate is clearly identified as a challenge, and the question asks for the 'most promising paths' which the answer addresses thoroughly with the three battery chemistries. Overall, this is an excellent response."
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Claude Opus 4.6",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "accuracy": 5,
+    "completeness": 5,
+    "coherence": 5,
+    "judge_reasoning": "The answer is factually accurate throughout, correctly citing all key figures and details from the context (80% coverage, 99-year leases, ethnic quotas, CPF usage, 60-year threshold, 4% SERS selection rate). It addresses all parts of the question, covering both strengths and challenges comprehensively, and even adds a well-reasoned insight about the tension between ownership mindset and leasehold reality, which is a valid inference from the context rather than an inaccuracy. The structure is excellent \u2014 clearly organized with headers, bullet points, and bold labels that make it easy to read and understand. It aligns closely with the reference answer while providing slightly more detail and better formatting."
+  }
+]

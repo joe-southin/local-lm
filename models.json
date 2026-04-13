@@ -1,0 +1,52 @@
+[
+  {
+    "name": "GLM-4-9B-Chat Q4",
+    "gguf_path": "~/models/glm-4-9b-chat-Q4_K_M.gguf",
+    "context_size": 4096,
+    "is_local": true
+  },
+  {
+    "name": "Gemma 4 E4B Q8",
+    "gguf_path": "~/models/google_gemma-4-E4B-it-Q8_0.gguf",
+    "context_size": 4096,
+    "is_local": true
+  },
+  {
+    "name": "Llama 3.1 8B Q4",
+    "gguf_path": "~/models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+    "context_size": 4096,
+    "is_local": true
+  },
+  {
+    "name": "Llama 3.1 8B Q5",
+    "gguf_path": "~/models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf",
+    "context_size": 4096,
+    "is_local": true
+  },
+  {
+    "name": "Gemma 4 E4B Q4",
+    "gguf_path": "~/models/google_gemma-4-E4B-it-Q4_K_M.gguf",
+    "context_size": 4096,
+    "is_local": true
+  },
+  {
+    "name": "Qwen 2.5 7B",
+    "gguf_path": "~/models/Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+    "context_size": 4096,
+    "is_local": true
+  },
+  {
+    "name": "DeepSeek-R1-Distill 7B",
+    "gguf_path": "~/models/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
+    "context_size": 12288,
+    "is_local": true,
+    "max_tokens": 8192,
+    "timeout_seconds": 600.0
+  },
+  {
+    "name": "Claude Opus 4.6",
+    "gguf_path": null,
+    "context_size": null,
+    "is_local": false
+  }
+]

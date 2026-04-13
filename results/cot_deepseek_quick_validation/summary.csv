@@ -1,0 +1,2 @@
+model,category,avg_accuracy,avg_completeness,avg_coherence,avg_latency,n
+DeepSeek-R1-Distill 7B,cot,3.25,3.0,3.5,114.65,4

@@ -1,0 +1,2594 @@
+[
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 5.04,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 11.87,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 8.35,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 10.6,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Customers started claiming they would 'take out' their food to pay a lower tax rate, as food taken away from convenience stores was taxed at 8% while food eaten in the store was taxed at 10%.",
+    "latency_seconds": 12.84,
+    "tokens_generated": 45
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income, the rise in construction costs, and the decrease in household size leading to a perception that homes are larger and more expensive than necessary.",
+    "latency_seconds": 15.42,
+    "tokens_generated": 68
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using it from the start. Given the project's tight deadline and its current 60% completion, the additional time required for TDD could be detrimental.",
+    "latency_seconds": 18.42,
+    "tokens_generated": 72
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, it is likely that water clarity will improve as the ecosystem shifts and other species, including potentially some of the extinct cichlids, recover and help control algae populations.",
+    "latency_seconds": 24.82,
+    "tokens_generated": 75
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy has achieved significant success, generating over 50% of its electricity from wind power, the highest proportion in the world. This is supported by a robust industry that employs about 33,000 people and exports wind technology worth over \u20ac8 billion annually. The strategy's foundation is consistent government policy since the 1970s, which included early subsidies for small wind cooperatives, fostering public support and local ownership of wind turbines.\n\nHowever, Denmark's strategy also faces key vulnerabilities. It has the highest household electricity prices in Europe, partly due to additional taxes and levies that fund the green transition. Additionally, Denmark heavily relies on interconnectors with Norway and Germany to balance supply during periods of low wind output, as it lacks sufficient domestic storage capacity.",
+    "latency_seconds": 33.69,
+    "tokens_generated": 163
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Shift to remote work offers increased productivity for routine tasks and worker satisfaction with flexible work. However, it leads to decreased collaboration and can negatively impact career progression for younger workers. Commercial real estate and businesses reliant on office foot traffic face increased vacancy and revenue declines.",
+    "latency_seconds": 4.71,
+    "tokens_generated": 52
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Key sustainability challenges include water-intensive lithium mining in arid regions and child labor/artisanal mining issues with cobalt. Recycling rates are low, with only about 5% of batteries recycled globally. Promising paths include using lithium iron phosphate (LFP) batteries that eliminate cobalt, and sodium-ion batteries that could remove the need for lithium. Solid-state batteries offer potential improvements but are not yet commercially viable.",
+    "latency_seconds": 6.05,
+    "tokens_generated": 84
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Strengths:\n- Houses 80% of the population, one of the highest rates of public housing globally.\n- Government subsidies through grants and CPF usage.\n- Ethnic integration quotas to prevent racial segregation.\n\nChallenges:\n- Rising resale prices creating paper wealth but also increasing inequality.\n- Depreciating asset problem as leases age, making older flats harder to sell and ineligible for full CPF usage.\n- Only 4% of HDB blocks have been selected for redevelopment schemes to address ageing estates.",
+    "latency_seconds": 7.09,
+    "tokens_generated": 100
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 1.24,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 3.03,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 1.84,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 2.04,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Customers started claiming they would 'take out' their food to pay the lower tax rate of 8% instead of eating it in the store where the tax rate was 10%.",
+    "latency_seconds": 2.1,
+    "tokens_generated": 38
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income, the rise in construction costs, and the decrease in household size leading to a perception that homes are larger and more expensive than necessary.",
+    "latency_seconds": 3.77,
+    "tokens_generated": 68
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using it from the start. Given the project's tight deadline and its current 60% completion, the additional time required for TDD could be detrimental.",
+    "latency_seconds": 3.98,
+    "tokens_generated": 72
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, it is likely that water clarity will improve as the ecosystem shifts and other species, including potentially some of the extinct cichlids, recover and help control algae populations.",
+    "latency_seconds": 4.14,
+    "tokens_generated": 75
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy has achieved significant success, generating over 50% of its electricity from wind power, the highest proportion in the world. This is supported by a robust industry that employs about 33,000 people and exports wind technology worth over \u20ac8 billion annually. The strategy's foundation is consistent government policy since the 1970s, which included early subsidies for small wind cooperatives, fostering public support and local ownership of wind turbines.\n\nHowever, Denmark's strategy also faces key vulnerabilities. It has the highest household electricity prices in Europe, partly due to additional taxes and levies that fund the green transition. Additionally, Denmark heavily relies on interconnectors with Norway and Germany to balance supply during periods of low wind output, as it lacks sufficient domestic storage capacity.",
+    "latency_seconds": 8.99,
+    "tokens_generated": 163
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Shift to remote work offers increased productivity for routine tasks and worker satisfaction with flexible work. However, it leads to decreased collaboration and can negatively impact career progression for younger workers. Commercial real estate and businesses reliant on office foot traffic face increased vacancy and revenue declines.",
+    "latency_seconds": 2.98,
+    "tokens_generated": 52
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Key sustainability challenges include water-intensive lithium mining in arid regions and child labor/artisanal mining issues with cobalt. Recycling rates are low, with only about 5% of batteries recycled globally. Promising paths include using lithium iron phosphate (LFP) batteries that eliminate cobalt, and sodium-ion batteries that could remove the need for lithium. Solid-state batteries offer potential improvements but are not yet commercially viable.",
+    "latency_seconds": 4.77,
+    "tokens_generated": 84
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Strengths:\n- Houses 80% of the population, one of the highest rates of public housing globally.\n- Government subsidies through grants and CPF usage.\n- Ethnic integration quotas to prevent racial segregation.\n\nChallenges:\n- Rising resale prices creating paper wealth but also increasing inequality.\n- Depreciating asset problem as leases age, making older flats harder to sell and ineligible for full CPF usage.\n- Only 4% of HDB blocks have been selected for redevelopment schemes to address ageing estates.",
+    "latency_seconds": 5.55,
+    "tokens_generated": 100
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 1.23,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 2.98,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 1.82,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 2.04,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Customers started claiming they would 'take out' their food to pay the lower tax rate of 8% instead of eating it in the store where the tax rate was 10%.",
+    "latency_seconds": 2.1,
+    "tokens_generated": 38
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income, the rise in construction costs, and the decrease in household size leading to a perception that homes are larger and more expensive than necessary.",
+    "latency_seconds": 3.8,
+    "tokens_generated": 68
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using it from the start. Given the project's tight deadline and its current 60% completion, the additional time required for TDD could be detrimental.",
+    "latency_seconds": 4.08,
+    "tokens_generated": 72
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, it is likely that water clarity will improve as the ecosystem shifts and other species, including potentially some of the extinct cichlids, recover and help control algae populations.",
+    "latency_seconds": 4.26,
+    "tokens_generated": 75
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy has achieved significant success, generating over 50% of its electricity from wind power, the highest proportion in the world. This is supported by a robust industry that employs about 33,000 people and exports wind technology worth over \u20ac8 billion annually. The strategy's foundation is consistent government policy since the 1970s, which included early subsidies for small wind cooperatives, fostering public support and local ownership of wind turbines.\n\nHowever, Denmark's strategy also faces key vulnerabilities. It has the highest household electricity prices in Europe, partly due to additional taxes and levies that fund the green transition. Additionally, Denmark heavily relies on interconnectors with Norway and Germany to balance supply during periods of low wind output, as it lacks sufficient domestic storage capacity.",
+    "latency_seconds": 9.14,
+    "tokens_generated": 163
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Shift to remote work offers increased productivity for routine tasks and worker satisfaction with flexible work. However, it leads to decreased collaboration and can negatively impact career progression for younger workers. Commercial real estate and businesses reliant on office foot traffic face increased vacancy and revenue declines.",
+    "latency_seconds": 2.93,
+    "tokens_generated": 52
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Key sustainability challenges include water-intensive lithium mining in arid regions and child labor/artisanal mining issues with cobalt. Recycling rates are low, with only about 5% of batteries recycled globally. Promising paths include using lithium iron phosphate (LFP) batteries that eliminate cobalt, and sodium-ion batteries that could remove the need for lithium. Solid-state batteries offer potential improvements but are not yet commercially viable.",
+    "latency_seconds": 4.74,
+    "tokens_generated": 84
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Strengths:\n- Houses 80% of the population, one of the highest rates of public housing globally.\n- Government subsidies through grants and CPF usage.\n- Ethnic integration quotas to prevent racial segregation.\n\nChallenges:\n- Rising resale prices creating paper wealth but also increasing inequality.\n- Depreciating asset problem as leases age, making older flats harder to sell and ineligible for full CPF usage.\n- Only 4% of HDB blocks have been selected for redevelopment schemes to address ageing estates.",
+    "latency_seconds": 5.79,
+    "tokens_generated": 100
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 1.33,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 3.27,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 2.01,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 2.21,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Customers started claiming they would 'take out' their food to pay a lower tax rate, as food taken away from convenience stores was taxed at 8% while eating in was taxed at 10%.",
+    "latency_seconds": 2.48,
+    "tokens_generated": 42
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income, the rise in construction costs, and the decrease in household size.",
+    "latency_seconds": 3.22,
+    "tokens_generated": 55
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using it from the start. Given the project's tight deadline and its current 60% completion, the additional time required for TDD could outweigh the benefits.",
+    "latency_seconds": 4.31,
+    "tokens_generated": 73
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, there might be an increase in the populations of smaller fish, including some cichlids, which could help restore algae control, potentially improving water clarity.",
+    "latency_seconds": 4.38,
+    "tokens_generated": 72
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy has been highly successful, generating over 50% of its electricity from wind power, the highest proportion in the world. This success is attributed to consistent government policies since the 1970s, early subsidies for small wind cooperatives, and a reliance on local community-owned wind turbines. The strategy has also created a robust wind industry that employs around 33,000 people and exports wind technology worth over \u20ac8 billion annually.\n\nHowever, Denmark faces key vulnerabilities. It has the highest household electricity prices in Europe, partly due to taxes and levies funding the green transition. Additionally, Denmark heavily relies on interconnectors with Norway and Germany to balance supply during periods of low wind output, as it lacks sufficient storage capacity.",
+    "latency_seconds": 9.86,
+    "tokens_generated": 157
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The shift to remote work offers increased productivity for routine tasks but suffers in collaboration-intensive work. Workers prefer flexible work arrangements, yet this leads to higher commercial real estate vacancy rates and revenue declines for businesses in major cities. Younger workers experience higher rates of loneliness and slower career progression in fully remote settings.",
+    "latency_seconds": 4.07,
+    "tokens_generated": 61
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Key sustainability challenges include water-intensive lithium mining in arid regions and child labor in cobalt extraction. Recycling rates are low, with only about 5% of batteries recycled globally. Promising paths include using lithium iron phosphate (LFP) batteries that eliminate cobalt, and sodium-ion batteries that could remove the need for lithium. Solid-state batteries offer potential improvements but are not yet commercially viable.",
+    "latency_seconds": 5.63,
+    "tokens_generated": 80
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Strengths:\n- Houses 80% of the population, one of the highest rates of public housing globally.\n- Government subsidies through grants and CPF usage.\n- Ethnic integration quotas to prevent racial segregation.\n\nChallenges:\n- Rising resale prices creating paper wealth but also increasing inequality.\n- Depreciating asset problem as leases age, making older flats harder to sell and reducing CPF usage.\n- Only 4% of HDB blocks have been selected for redevelopment schemes to address ageing estates.",
+    "latency_seconds": 7.44,
+    "tokens_generated": 98
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 1.75,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 4.39,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 2.76,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 3.15,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Customers started claiming they would 'take out' their food to pay the lower tax rate of 8% instead of eating it in the store where the tax was 10%.",
+    "latency_seconds": 3.22,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income, the rise in construction costs, and the decrease in average household size.",
+    "latency_seconds": 4.99,
+    "tokens_generated": 56
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to those using it from the start. Given the project's tight deadline and its current 60% completion, the additional time required for TDD could be detrimental.",
+    "latency_seconds": 6.76,
+    "tokens_generated": 72
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, it is likely that water clarity could improve as the ecosystem shifts and other species, possibly including some of the previously extinct cichlids, regain a role in controlling algae populations.",
+    "latency_seconds": 7.56,
+    "tokens_generated": 77
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy has been highly successful, generating over 50% of its electricity from wind power, the highest proportion in the world. This success is due to consistent government policy since the 1970s, early subsidies for small wind cooperatives, and the widespread adoption of wind turbines, many owned by local communities. Denmark exports significant wind turbine technology and employs around 33,000 people in the sector. However, the strategy has vulnerabilities, including high household electricity prices partly due to green transition funding, and reliance on interconnectors with Norway and Germany to balance supply during low wind output periods.",
+    "latency_seconds": 13.52,
+    "tokens_generated": 130
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The shift to remote work has brought increased productivity on routine tasks (13% higher for remote workers) but has negatively impacted collaboration-intensive work. For employees, there is a strong preference (87%) for maintaining flexible work arrangements. However, this shift has led to reduced co-authorship in patent work (25% decrease) and has negatively affected commercial real estate (18.2% vacancy rates) and businesses dependent on office foot traffic (30-60% revenue declines). Younger workers also experience higher rates of loneliness and slower career progression in fully remote settings.",
+    "latency_seconds": 13.15,
+    "tokens_generated": 119
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Key sustainability challenges of lithium-ion batteries include water-intensive mining processes for lithium, particularly in arid regions, and unethical cobalt sourcing linked to child labor and unsafe conditions in the DRC. Additionally, low recycling rates mean significant environmental impact and resource waste.\n\nPromising paths to address these challenges involve:\n1. Transitioning to lithium iron phosphate (LFP) batteries, which eliminate cobalt.\n2. Developing sodium-ion batteries as an alternative to lithium.\n3. Advancing solid-state batteries, which offer potential improvements in energy density and lifespan.",
+    "latency_seconds": 11.88,
+    "tokens_generated": 110
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Strengths:\n- Houses 80% of the population, one of the highest rates of public housing globally.\n- Government subsidies through grants and CPF usage.\n- Ethnic integration quotas to prevent racial segregation.\n\nChallenges:\n- Rising resale prices creating paper wealth but also inflationary pressures.\n- Depreciating asset problem as leases age, making older flats harder to sell and ineligible for full CPF usage.\n- Only 4% of HDB blocks have been selected for redevelopment schemes like VERS and SERS.",
+    "latency_seconds": 14.94,
+    "tokens_generated": 103
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 3.42,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 7.71,
+    "tokens_generated": 55
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 3.8,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 4.08,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Customers started claiming they would 'take out' their food to avoid the higher tax rate of 10% and pay the reduced rate of 8%.",
+    "latency_seconds": 3.41,
+    "tokens_generated": 32
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income (from about 3.5:1 to 5.5:1), the growth in home size, and the rise in construction costs per square foot.",
+    "latency_seconds": 7.81,
+    "tokens_generated": 74
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using it from the start. Given the project's tight deadline and its current 60% completion, the additional time required for TDD could outweigh the benefits.",
+    "latency_seconds": 7.42,
+    "tokens_generated": 73
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, there could be an increase in the populations of these algae-eating cichlids, potentially leading to improved water clarity.",
+    "latency_seconds": 6.61,
+    "tokens_generated": 66
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy has been highly successful, generating over 50% of its electricity from wind power and employing about 33,000 people in the wind industry, which also exports technology worth over \u20ac8 billion annually. This strategy, initiated in response to the 1970s oil crisis, includes early subsidies for small wind cooperatives and has led to over 6,000 wind turbines, many owned by local communities. However, Denmark faces vulnerabilities such as the highest household electricity prices in Europe, partly due to green transition funding through taxes and levies. The country also relies on interconnectors with Norway and Germany to balance supply during low wind output periods.",
+    "latency_seconds": 14.15,
+    "tokens_generated": 144
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The shift to remote work during the pandemic offered increased productivity for routine tasks (13% higher) and maintained worker satisfaction with flexible work arrangements. However, it led to a decline in collaboration-intensive work (25% drop in patent co-authorships) and negatively impacted commercial real estate (18.2% vacancy rates) and businesses dependent on office foot traffic (30-60% revenue declines). Younger workers experienced higher rates of loneliness and slower career progression in fully remote settings.",
+    "latency_seconds": 10.01,
+    "tokens_generated": 101
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Key sustainability challenges of lithium-ion batteries include water-intensive mining processes for lithium, which affect arid regions and indigenous communities, and the problematic sourcing of cobalt linked to child labor and unsafe conditions. Additionally, low recycling rates mean that only about 5% of these batteries are recycled globally.\n\nPromising paths to address these challenges involve the use of lithium iron phosphate (LFP) batteries, which eliminate the need for cobalt, and sodium-ion batteries, which could replace lithium. Solid-state batteries offer potential improvements in energy density and lifespan but are not yet commercially viable.",
+    "latency_seconds": 11.3,
+    "tokens_generated": 115
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Strengths:\n- Houses approximately 80% of the population.\n- Government subsidises purchases through grants and CPF usage.\n- Includes income ceilings and ethnic integration quotas to promote social cohesion.\n\nEmerging Challenges:\n- Rising resale prices creating paper wealth but also increasing inequality.\n- Depreciating asset problem as leases age, making older flats harder to sell and ineligible for full CPF usage.\n- Only about 4% of HDB blocks have been selected for redevelopment schemes to address ageing estates.",
+    "latency_seconds": 9.88,
+    "tokens_generated": 99
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 2.21,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 5.34,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 3.24,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 3.63,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Customers started claiming they would 'take out' their food to pay a lower tax rate, as food taken away from convenience stores was taxed at 8% while eating in was taxed at 10%.",
+    "latency_seconds": 4.12,
+    "tokens_generated": 42
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income, the rise in average home size without a corresponding increase in household size, and the slower growth in median household income compared to construction costs.",
+    "latency_seconds": 6.77,
+    "tokens_generated": 69
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using it from the start. Given the project's tight deadline and its current 60% completion, the additional time required for TDD could outweigh the benefits.",
+    "latency_seconds": 7.2,
+    "tokens_generated": 73
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, it is likely that water clarity will improve as the ecosystem regains balance and algae-eating cichlids potentially recover or reestablish themselves.",
+    "latency_seconds": 6.88,
+    "tokens_generated": 70
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy has been highly successful, generating over 50% of its electricity from wind power, the highest proportion in the world. This achievement is supported by a consistent government policy since the 1970s, early subsidies for small wind cooperatives, and a significant number of wind turbines, many owned by local communities. The strategy has also created jobs and substantial exports. However, Denmark faces vulnerabilities such as high household electricity prices due to taxes and levies, and reliance on interconnectors with Norway and Germany to balance supply during low wind output periods.",
+    "latency_seconds": 11.66,
+    "tokens_generated": 119
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Shift to remote work offers increased productivity for routine tasks and flexibility for workers. However, it leads to decreased collaboration and can negatively impact career progression for younger workers. For companies, it reduces commercial real estate costs but may hurt revenue for businesses dependent on office foot traffic. Overall, while remote work enhances flexibility and productivity, it can undermine collaboration and have broader economic impacts.",
+    "latency_seconds": 7.36,
+    "tokens_generated": 74
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Key sustainability challenges include water-intensive lithium mining in arid regions and child labor in cobalt extraction from the Democratic Republic of Congo. Recycling rates are low, with only about 5% of lithium-ion batteries recycled globally. Promising paths include the use of lithium iron phosphate (LFP) batteries that eliminate cobalt, and sodium-ion batteries that could replace lithium. Solid-state batteries offer potential improvements but are not yet commercially viable.",
+    "latency_seconds": 8.76,
+    "tokens_generated": 87
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Strengths:\n- Houses approximately 80% of the population.\n- Government subsidies and CPF usage support home ownership.\n- Ethnic integration quotas promote diversity.\n\nEmerging Challenges:\n- Rising resale prices create paper wealth but strain CPF usage.\n- Aging estates face a depreciating asset problem, especially those with fewer than 60 years left on their lease.\n- Limited success with government schemes to address aging estates.",
+    "latency_seconds": 8.27,
+    "tokens_generated": 83
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards, including his masterpiece, St Paul's Cathedral.",
+    "latency_seconds": 3.08,
+    "tokens_generated": 31
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 5.35,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 3.32,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 3.72,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "Customers started claiming they would 'take out' their food to pay the lower tax rate of 8% instead of eating it in the store where the tax was 10%.",
+    "latency_seconds": 3.7,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to the significant increase in home prices relative to income, from about 3.5:1 in 1980 to around 5.5:1 in 2020, despite a modest 15% growth in real median household income and a 30% increase in the size of new homes.",
+    "latency_seconds": 9.07,
+    "tokens_generated": 91
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "They should not adopt TDD now. The study shows that teams adopting TDD partway through a project saw only 20-40% defect reduction, compared to the 40-90% reduction for teams using it from the start. Additionally, there's an initial time cost associated with the longer initial implementation. Given the project's tight deadline, these factors suggest that adopting TDD at this stage would not be optimal.",
+    "latency_seconds": 8.92,
+    "tokens_generated": 90
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species, which were algae-eaters, are no longer present to control algae growth. As the Nile perch population declines, we might expect water clarity to improve, as the reintroduction or recovery of some algae-eating cichlid species could help reduce algae growth and improve clarity.",
+    "latency_seconds": 7.55,
+    "tokens_generated": 75
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy has been highly successful, generating over 50% of its electricity from wind power, the highest proportion in the world. It has created 33,000 jobs and exports wind technology worth over \u20ac8 billion annually. Early subsidies and policies since the 1970s oil crisis have led to over 6,000 wind turbines, many owned by local communities. However, this strategy has vulnerabilities, including the country's highest household electricity prices in Europe due to related taxes and levies. Denmark also depends on interconnectors with Norway and Germany to balance supply when wind output is low.",
+    "latency_seconds": 13.39,
+    "tokens_generated": 132
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The shift to remote work during the pandemic brought increased productivity on routine tasks for workers but suffered in areas requiring collaboration. While 87% of workers preferred flexible work options, this came at the cost of reduced interaction and slower career progression for younger workers. Employers faced mixed results, with improved productivity on some tasks but difficulties in collaboration. Commercial real estate saw significant vacancy rates, and local businesses dependent on office worker foot traffic experienced substantial revenue declines.",
+    "latency_seconds": 9.3,
+    "tokens_generated": 91
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "Key sustainability challenges include water consumption in lithium mining, environmental and ethical concerns in cobalt sourcing, and low recycling rates. Promising paths include the use of lithium iron phosphate batteries that eliminate cobalt, sodium-ion batteries that may remove the need for lithium, and the development of solid-state batteries.",
+    "latency_seconds": 6.13,
+    "tokens_generated": 60
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "Strengths:\n- High public housing rate (80% of population)\n- Government subsidies and CPF usage for mortgage payments\n- Ethnic integration quotas to prevent racial segregation\n\nChallenges:\n- Rising resale prices creating paper wealth but also increasing inequality\n- Depreciating asset problem as leases age, making older flats harder to sell and ineligible for full CPF usage\n- Only 4% of HDB blocks have been selected for redevelopment schemes like SERS to address ageing estates.",
+    "latency_seconds": 9.78,
+    "tokens_generated": 96
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 2.25,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 5.58,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 3.45,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "1.5% of the human genome codes for proteins, and there are roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 3.82,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Customers started claiming they would 'take out' their food to avoid the higher tax rate of 10% and pay the reduced rate of 8%.",
+    "latency_seconds": 3.32,
+    "tokens_generated": 32
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in average home size, the rise in construction costs per square foot, and the slower growth in median household income compared to home prices.",
+    "latency_seconds": 6.47,
+    "tokens_generated": 62
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "They should not adopt TDD now. The passage indicates that teams that adopt TDD partway through a project see smaller benefits, with only 20-40% defect reduction compared to those using it from the start. Given the project's tight deadline and its current 60% completion, adopting TDD at this stage is unlikely to provide significant advantages in terms of defect reduction and might even increase development time.",
+    "latency_seconds": 9.01,
+    "tokens_generated": 86
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, it is likely that water clarity will improve as the native cichlids, which can reappear and help control algae, may recover.",
+    "latency_seconds": 7.21,
+    "tokens_generated": 69
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy has achieved significant success, generating over 50% of its electricity from wind power, the highest proportion in the world. This has created 33,000 jobs and generated \u20ac8 billion annually from exports. The strategy's success is rooted in consistent government policy since the 1970s, early subsidies for small wind cooperatives, and public support. However, Denmark faces high household electricity prices due to green transition taxes and levies. It also heavily relies on interconnectors with Norway and Germany to balance supply when wind output is low.",
+    "latency_seconds": 12.73,
+    "tokens_generated": 121
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The shift to remote work during the pandemic offered increased productivity for routine tasks but reduced collaboration for more intensive work. For employees, it provided flexibility but led to higher loneliness and slower career progression for younger workers. Companies benefited from increased productivity on simple tasks but faced challenges with collaboration. Commercial real estate and businesses dependent on office worker foot traffic saw significant economic losses, while there was a slight overall drop in office space usage.",
+    "latency_seconds": 8.9,
+    "tokens_generated": 84
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Key sustainability challenges include water-intensive lithium mining in arid regions and cobalt sourcing linked to child labor and unsafe conditions. Recycling rates are low, at about 5% globally. Promising solutions include lithium iron phosphate (LFP) batteries that eliminate cobalt, sodium-ion batteries that could replace lithium, and solid-state batteries that offer better performance but are not yet commercially viable.",
+    "latency_seconds": 8.37,
+    "tokens_generated": 77
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Strengths:\n- Houses approximately 80% of the population, one of the highest rates of public housing globally.\n- Government subsidies through grants and CPF usage.\n- Income ceilings and ethnic integration quotas to prevent racial segregation.\n\nEmerging Challenges:\n- Fluctuating resale prices creating paper wealth but also asset depreciation.\n- \"Depreciating asset problem\" as leases age, making flats harder to sell and ineligible for full CPF usage.\n- Difficulty in selling flats with fewer than 60 years remaining on the lease.\n- Limited effectiveness of government schemes (VERS and SERS) to address ageing estates, with only about 4% of HDB blocks selected for SERS.",
+    "latency_seconds": 14.7,
+    "tokens_generated": 137
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren was commissioned to redesign many of them afterwards.",
+    "latency_seconds": 2.46,
+    "tokens_generated": 22
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 5.8,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 3.51,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 3.93,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Customers started claiming they would 'take out' their food to pay the lower tax rate of 8% instead of eating it in the store where the tax rate was 10%.",
+    "latency_seconds": 4.03,
+    "tokens_generated": 38
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income, the rise in average home size without a corresponding increase in household size, and the slower growth in median household income compared to construction costs.",
+    "latency_seconds": 7.61,
+    "tokens_generated": 69
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using it from the start. Given the project's tight deadline and its current 60% completion, the potential increase in initial implementation time by 15-35% could be detrimental.",
+    "latency_seconds": 8.6,
+    "tokens_generated": 80
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, there might be an increase in the population of smaller fish, including some cichlids, which could help restore algae control, potentially improving water clarity.",
+    "latency_seconds": 7.69,
+    "tokens_generated": 72
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy has achieved generating over 50% of its electricity from wind power, the highest proportion globally. This success is due to consistent government policy since the 1970s, early subsidies for small wind cooperatives, and a reliance on local community-owned wind turbines. The strategy has created jobs and significant exports. However, it faces vulnerabilities such as high household electricity prices and the need for interconnectors with Norway and Germany to balance supply during low wind output periods.",
+    "latency_seconds": 10.96,
+    "tokens_generated": 102
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Shift to remote work offers increased productivity for routine tasks (13% higher) and worker satisfaction (87% want to keep flexible work). However, it costs in terms of reduced collaboration (25% drop in patent co-authorships), increased commercial real estate vacancy (18.2% nationally), and economic impacts on office-dependent businesses (30-60% revenue decline). Younger workers face higher rates of loneliness and slower career progression.",
+    "latency_seconds": 9.87,
+    "tokens_generated": 93
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Key sustainability challenges include water-intensive lithium mining in arid regions and ethical concerns with cobalt sourcing, particularly child labor and unsafe conditions in the DRC. Recycling rates are low, with only about 5% of batteries recycled globally. Promising paths include the rise of cobalt-free lithium iron phosphate (LFP) batteries and the potential of sodium-ion batteries to eliminate the need for lithium. Solid-state batteries offer improved performance but are not yet commercially viable.",
+    "latency_seconds": 9.84,
+    "tokens_generated": 93
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Strengths:\n- Houses approximately 80% of the population.\n- Government subsidies and CPF usage support home ownership.\n- Ethnic integration quotas promote diversity.\n\nEmerging Challenges:\n- Rising resale prices create paper wealth but also inflate living costs.\n- Aging estates face the depreciating asset problem as lease terms shorten.\n- Only a small percentage of HDB blocks have been selected for redevelopment schemes.",
+    "latency_seconds": 8.37,
+    "tokens_generated": 79
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "87 parish churches were destroyed, and architect Christopher Wren redesigned many of them, including his masterpiece, St Paul's Cathedral.",
+    "latency_seconds": 2.85,
+    "tokens_generated": 27
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase).",
+    "latency_seconds": 5.76,
+    "tokens_generated": 54
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 3.56,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Approximately 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 4.07,
+    "tokens_generated": 38
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Customers started claiming they would 'take out' their food to pay the lower tax rate of 8% instead of the higher 10% dining tax, even when they intended to eat in.",
+    "latency_seconds": 4.4,
+    "tokens_generated": 41
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors: the increase in home sizes, the rise in construction costs per square foot, and the relatively lower growth in median household income. These factors contributed to a higher ratio of median home price to median household income, making homes less affordable for younger adults.",
+    "latency_seconds": 8.37,
+    "tokens_generated": 77
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "They should not adopt TDD now. The passage indicates that teams adopting TDD partway through a project saw smaller benefits, with only 20-40% defect reduction compared to teams using TDD from the start. Given the project's tight deadline and its current 60% completion, the potential drawbacks, including the initial increase in time to complete the implementation, may outweigh the benefits.",
+    "latency_seconds": 8.99,
+    "tokens_generated": 82
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters are no longer present to control algae growth. As the Nile perch population declines, algae-eating cichlids may recover, potentially improving water clarity.",
+    "latency_seconds": 6.16,
+    "tokens_generated": 56
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy has been highly successful, generating over 50% of its electricity from wind power, the highest proportion globally. This achievement is supported by early government policies, including subsidies for small wind cooperatives, which fostered public support and created over 33,000 jobs in the wind industry, with annual exports worth over \u20ac8 billion. However, this strategy is vulnerable to high household electricity prices due to additional taxes and levies for the green transition. Additionally, Denmark heavily relies on interconnectors with Norway and Germany for balancing supply when wind output is low.",
+    "latency_seconds": 13.14,
+    "tokens_generated": 122
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Shift to remote work offers productivity gains for routine tasks (13% more productive) but harms collaboration-intensive work. It benefits workers by allowing flexible work, though younger workers face higher loneliness and slower career progression. For companies, it saves on office costs but reduces on-site collaboration. Commercial real estate faces higher vacancy rates, impacting businesses dependent on office foot traffic. Overall, while remote work improves work-life balance and productivity for some, it creates challenges for collaboration and business operations in commercial areas.",
+    "latency_seconds": 10.72,
+    "tokens_generated": 99
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Key sustainability challenges include:\n1. Water consumption in lithium mining.\n2. Environmental and ethical issues with cobalt sourcing.\n3. Low recycling rates.\n\nPromising paths include:\n1. Transitioning to cobalt-free lithium iron phosphate batteries.\n2. Development and eventual commercialization of sodium-ion batteries.\n3. Advancements in solid-state batteries.",
+    "latency_seconds": 7.52,
+    "tokens_generated": 70
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Strengths: The public housing model in Singapore, managed by the HDB, is highly effective, housing about 80% of the population. It includes government subsidies, mandatory savings (CPF) for affordable housing purchases, and policies like income ceilings and ethnic integration quotas. Challenges: Resale prices have increased, creating wealth but also making it harder to sell flats with fewer than 60 years on their lease. As leases age, these flats depreciate in value and become less saleable, leading to the \"depreciating asset problem.\"",
+    "latency_seconds": 11.99,
+    "tokens_generated": 111
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "87 parish churches were destroyed in the Great Fire of London, and architect Christopher Wren was commissioned to redesign many of them afterwards, including his masterpiece, St Paul's Cathedral.",
+    "latency_seconds": 4.07,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 3.95,
+    "tokens_generated": 36
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 3.61,
+    "tokens_generated": 33
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "About 1.5% of the human genome codes for proteins, with roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 4.04,
+    "tokens_generated": 37
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Customers started claiming they would 'take out' their food to pay a lower tax rate, as food taxed at 8% (grocery) was cheaper than food taxed at 10% (dining).",
+    "latency_seconds": 4.82,
+    "tokens_generated": 44
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors highlighted in the passage: the significant increase in home prices relative to income (from about 3.5:1 to 5.5:1), the rise in construction costs per square foot (by about 40%), and the slower growth in median household income (by only 15% in real terms).",
+    "latency_seconds": 10.04,
+    "tokens_generated": 92
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "They should not adopt TDD now. The passage indicates that teams that adopt TDD partway through a project see smaller benefits, with only 20-40% defect reduction compared to teams that use it from the start. Additionally, TDD teams take longer to complete their initial implementation. Given the project's tight deadline, these factors suggest that adopting TDD at this stage would not be beneficial.",
+    "latency_seconds": 9.06,
+    "tokens_generated": 83
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Water clarity in Lake Victoria decreased after the Nile perch was introduced because many extinct cichlid species that were algae-eaters were no longer present to control algae growth. As the Nile perch population declines, we might expect water clarity to improve, as these cichlids could potentially re-establish themselves or other algae-eating species could regain prominence in the lake's ecosystem.",
+    "latency_seconds": 8.08,
+    "tokens_generated": 75
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy has been highly successful, generating over 50% of its electricity from wind power and employing about 33,000 people in the wind industry, which annually exports technology worth over \u20ac8 billion. Key achievements include over 6,000 wind turbines, many owned by local communities or cooperatives, and a consistent policy since the 1970s aimed at reducing oil dependency. However, the strategy has vulnerabilities, such as the highest household electricity prices in Europe, partly due to high taxes and levies funding the green transition, and reliance on interconnectors with Norway and Germany for balancing supply during low wind output periods.",
+    "latency_seconds": 15.42,
+    "tokens_generated": 139
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Shift to remote work offers increased productivity for routine tasks (13% higher) but harms collaboration (25% drop in patent co-authorships). It provides employees with flexible work options (87% wanted to keep it) but causes loneliness for younger workers. For businesses, it lowers commercial real estate vacancy rates (18.2% nationally) and reduces foot traffic-related revenue (30-60% decline for some).",
+    "latency_seconds": 9.89,
+    "tokens_generated": 89
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Lithium-ion batteries face sustainability challenges including water-intensive mining processes for lithium and unsafe, child-labor involved cobalt extraction. Recycling rates are low, with only about 5% of these batteries recycled globally. Solutions include the rise of cobalt-free lithium iron phosphate (LFP) batteries and the potential of sodium-ion batteries to eliminate the need for lithium. Solid-state batteries offer promise but are not yet commercially viable.",
+    "latency_seconds": 9.48,
+    "tokens_generated": 86
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "Qwen 2.5 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Strengths: \n- Houses 80% of the population, one of the highest rates of public housing globally.\n- Government subsidizes purchases and manages racial integration.\n- Mandatory savings (CPF) aid in affordability.\n\nChallenges:\n- Rising resale prices create paper wealth but may not be sustainable.\n- Aging estates face the depreciating asset problem as lease terms shorten.\n- Limited SERS implementation addresses only about 4% of HDB blocks.",
+    "latency_seconds": 10.05,
+    "tokens_generated": 91
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them afterward.",
+    "latency_seconds": 32.05,
+    "tokens_generated": 319
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, where chlorophyll absorbs light energy to split water molecules, producing oxygen, ATP, and NADPH. The key enzyme of the Calvin cycle is RuBisCO, which fixes carbon dioxide into glucose through a series of reactions. \n\nAnswer: The light-dependent reactions take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 48.39,
+    "tokens_generated": 412
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 27.28,
+    "tokens_generated": 227
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The human genome's percentage of DNA coding for proteins is approximately 1.5%, with about 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 43.22,
+    "tokens_generated": 371
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The increase in the consumption tax led to higher costs for dining in convenience stores, as food purchased for in-store consumption was taxed at 10%, while takeout was taxed at 8%. This price difference made dining in more expensive, prompting customers to opt for takeout to save money.",
+    "latency_seconds": 80.52,
+    "tokens_generated": 702
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Rising Construction Costs**: The cost of building single-family homes increased significantly due to inflation, with construction costs per square foot rising by approximately 40%. This made homes more expensive to build.\n\n2. **Slower Growth of Household Income**: Median household income only increased by 15% in real terms, which was insufficient to keep up with the rising construction costs, making homeownership less affordable.\n\n3. **Higher Home Price-to-Income Ratio**: The ratio of median home price to median household income increased from 3.5:1 to 5.5:1, indicating that homes became more expensive relative to people's incomes, making them harder to afford.\n\n4. **Changes in Home and Household Sizes**: The average size of homes increased, while household size decreased, leading to higher costs per person and contributing to the decline in homeownership rates.\n\nThese factors collectively made homeownership less accessible for young adults during this period.",
+    "latency_seconds": 107.47,
+    "tokens_generated": 939
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The manager should not adopt TDD now because the study indicates that teams that adopt TDD later only see 20-40% benefit, which is less than the maximum 40-90% reduction in defects seen when TDD is used from the start. Additionally, the initial implementation time for TDD is 15-35% longer, which could delay the project beyond the tight deadline. Therefore, it's better to continue with the current approach to meet the deadline.",
+    "latency_seconds": 57.07,
+    "tokens_generated": 486
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The decrease in water clarity in Lake Victoria after the introduction of the Nile perch was due to the decline of native cichlid fish, particularly those that served as algae-eaters, which are crucial for maintaining water clarity by consuming algae and deterring sedimentation. As the Nile perch population declines, further reductions in water clarity may occur due to the potential extinction of additional cichlid species that contribute to water clarity, exacerbating the ecological imbalance.",
+    "latency_seconds": 68.58,
+    "tokens_generated": 590
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy focuses on leveraging wind power as a key component of its renewable energy portfolio, achieving over 50% of electricity generation from wind. Achievements include employing 33,000 people in the wind industry, exporting \u20ac8 billion in technology annually, and having over 6,000 wind turbines, many owned by local communities. Key vulnerabilities involve high household electricity prices due to taxes and levies funding the green transition and reliance on interconnectors with Norway and Germany for grid stability when wind output is low.",
+    "latency_seconds": 52.08,
+    "tokens_generated": 447
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The shift to remote work during the COVID-19 pandemic presented several trade-offs across different stakeholders:\n\n**Benefits:**\n1. **Increased Productivity:** Some studies indicated that remote workers were 13% more productive on routine tasks.\n2. **Employee Satisfaction:** 87% of employees expressed a desire to maintain flexible work arrangements.\n3. **Cost Savings:** Companies may have reduced office-related expenses.\n\n**Costs:**\n1. **Commercial Real Estate Impact:** Vacancy rates in major cities rose to 18.2%, affecting businesses reliant on office workers, leading to revenue declines of 30-60%.\n2. **Reduced Collaboration:** Drop in patent co-authorships (25%) due to remote work, impacting collaborative work environments.\n3. **Social Isolation and Career Impact:** Younger workers reported higher rates of loneliness and slower career progression in fully remote settings.\n\nThese trade-offs highlight the dual nature of remote work, offering productivity gains and flexibility but also significant challenges in collaboration, real estate, and social well-being.",
+    "latency_seconds": 64.31,
+    "tokens_generated": 550
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "The key sustainability challenges of lithium-ion batteries include:\n\n1. **Water Consumption**: Mining lithium from brine deposits in regions like Chile and Argentina requires 2.2 million litres of water per tonne of lithium, posing environmental and community health issues in arid areas.\n\n2. **Child Labor and Unsafe Conditions**: Cobalt extraction in the Democratic Republic of Congo is linked to child labor and unsafe mining practices.\n\n3. **Low Recycling Rates**: Only about 5% of lithium-ion batteries are currently recycled globally, highlighting a significant sustainability gap.\n\n4. **Chemistry Dependence**: Lithium-ion batteries rely on non-recyclable chemistry, limiting their environmental impact.\n\nPromising solutions to address these challenges are:\n\n1. **Lithium Iron Phosphate (LFP) Batteries**: Eliminate cobalt and are gaining market share, offering a more sustainable alternative.\n\n2. **Sodium-Ion Batteries**: Potentially capable of eliminating lithium, enhancing sustainability.\n\n3. **Solid-State Batteries**: Show promise for higher energy density and longer lifespans, though they are not yet commercially viable.\n\nThese innovations aim to enhance sustainability and address the current challenges in lithium-ion battery production and recycling.",
+    "latency_seconds": 71.44,
+    "tokens_generated": 608
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.5,
+    "answer": "**Singapore's Public Housing Model: Strengths and Challenges**\n\n**Strengths:**\n1. **High Housing Coverage:** Singapore's public housing system accommodates approximately 80% of the population, ensuring a significant portion of residents have access to adequate housing.\n2. **Income and Ethnic Integration:** The 99-year lease system, combined with income ceilings and ethnic integration quotas, promotes diversity and prevents racial segregation, maintaining a mixed-income area.\n3. **Government Support:** Subsidies through grants and CPF help low-income families afford housing, reducing financial barriers and ensuring broader access.\n4. **Paper Wealth Creation:** Rising resale prices allow property owners to generate wealth without physical improvements, beneficial for long-term savings.\n\n**Challenges:**\n1. **Aging Estates:** Flats with leases expiring within 60 years face difficulty in selling and may not fully utilize CPF benefits, leading to depreciating asset issues.\n2. **Limited Redesign Initiatives:** Only about 4% of HDB blocks have adopted SERS, indicating limited government effort to rejuvenate housing stock and address aging properties effectively.\n\nThese factors highlight the strengths in housing accessibility and financial support, while challenges like aging leases and limited redevelopment efforts point to potential future issues in maintaining affordable housing.",
+    "latency_seconds": 99.98,
+    "tokens_generated": 851
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them afterward.",
+    "latency_seconds": 35.8,
+    "tokens_generated": 319
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, where chlorophyll absorbs light energy to split water molecules, producing oxygen, ATP, and NADPH. The key enzyme of the Calvin cycle is RuBisCO, which fixes carbon dioxide into glucose through a series of reactions. \n\nAnswer: The light-dependent reactions take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 46.57,
+    "tokens_generated": 412
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 25.63,
+    "tokens_generated": 227
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The human genome's percentage of DNA coding for proteins is approximately 1.5%, with about 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 41.97,
+    "tokens_generated": 371
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The increase in the consumption tax led to higher costs for dining in convenience stores, as food purchased for in-store consumption was taxed at 10%, while takeout was taxed at 8%. This price difference made dining in more expensive, prompting customers to opt for takeout to save money.",
+    "latency_seconds": 81.46,
+    "tokens_generated": 702
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Rising Construction Costs**: The cost of building single-family homes increased significantly due to inflation, with construction costs per square foot rising by approximately 40%. This made homes more expensive to build.\n\n2. **Slower Growth of Household Income**: Median household income only increased by 15% in real terms, which was insufficient to keep up with the rising construction costs, making homeownership less affordable.\n\n3. **Higher Home Price-to-Income Ratio**: The ratio of median home price to median household income increased from 3.5:1 to 5.5:1, indicating that homes became more expensive relative to people's incomes, making them harder to afford.\n\n4. **Changes in Home and Household Sizes**: The average size of homes increased, while household size decreased, leading to higher costs per person and contributing to the decline in homeownership rates.\n\nThese factors collectively made homeownership less accessible for young adults during this period.",
+    "latency_seconds": 109.23,
+    "tokens_generated": 939
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The manager should not adopt TDD now because the study indicates that teams that adopt TDD later only see 20-40% benefit, which is less than the maximum 40-90% reduction in defects seen when TDD is used from the start. Additionally, the initial implementation time for TDD is 15-35% longer, which could delay the project beyond the tight deadline. Therefore, it's better to continue with the current approach to meet the deadline.",
+    "latency_seconds": 55.69,
+    "tokens_generated": 486
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The decrease in water clarity in Lake Victoria after the introduction of the Nile perch was due to the decline of native cichlid fish, particularly those that served as algae-eaters, which are crucial for maintaining water clarity by consuming algae and deterring sedimentation. As the Nile perch population declines, further reductions in water clarity may occur due to the potential extinction of additional cichlid species that contribute to water clarity, exacerbating the ecological imbalance.",
+    "latency_seconds": 66.91,
+    "tokens_generated": 590
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy focuses on leveraging wind power as a key component of its renewable energy portfolio, achieving over 50% of electricity generation from wind. Achievements include employing 33,000 people in the wind industry, exporting \u20ac8 billion in technology annually, and having over 6,000 wind turbines, many owned by local communities. Key vulnerabilities involve high household electricity prices due to taxes and levies funding the green transition and reliance on interconnectors with Norway and Germany for grid stability when wind output is low.",
+    "latency_seconds": 51.5,
+    "tokens_generated": 447
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The shift to remote work during the COVID-19 pandemic presented several trade-offs across different stakeholders:\n\n**Benefits:**\n1. **Increased Productivity:** Some studies indicated that remote workers were 13% more productive on routine tasks.\n2. **Employee Satisfaction:** 87% of employees expressed a desire to maintain flexible work arrangements.\n3. **Cost Savings:** Companies may have reduced office-related expenses.\n\n**Costs:**\n1. **Commercial Real Estate Impact:** Vacancy rates in major cities rose to 18.2%, affecting businesses reliant on office workers, leading to revenue declines of 30-60%.\n2. **Reduced Collaboration:** Drop in patent co-authorships (25%) due to remote work, impacting collaborative work environments.\n3. **Social Isolation and Career Impact:** Younger workers reported higher rates of loneliness and slower career progression in fully remote settings.\n\nThese trade-offs highlight the dual nature of remote work, offering productivity gains and flexibility but also significant challenges in collaboration, real estate, and social well-being.",
+    "latency_seconds": 64.49,
+    "tokens_generated": 550
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "The key sustainability challenges of lithium-ion batteries include:\n\n1. **Water Consumption**: Mining lithium from brine deposits in regions like Chile and Argentina requires 2.2 million litres of water per tonne of lithium, posing environmental and community health issues in arid areas.\n\n2. **Child Labor and Unsafe Conditions**: Cobalt extraction in the Democratic Republic of Congo is linked to child labor and unsafe mining practices.\n\n3. **Low Recycling Rates**: Only about 5% of lithium-ion batteries are currently recycled globally, highlighting a significant sustainability gap.\n\n4. **Chemistry Dependence**: Lithium-ion batteries rely on non-recyclable chemistry, limiting their environmental impact.\n\nPromising solutions to address these challenges are:\n\n1. **Lithium Iron Phosphate (LFP) Batteries**: Eliminate cobalt and are gaining market share, offering a more sustainable alternative.\n\n2. **Sodium-Ion Batteries**: Potentially capable of eliminating lithium, enhancing sustainability.\n\n3. **Solid-State Batteries**: Show promise for higher energy density and longer lifespans, though they are not yet commercially viable.\n\nThese innovations aim to enhance sustainability and address the current challenges in lithium-ion battery production and recycling.",
+    "latency_seconds": 68.78,
+    "tokens_generated": 608
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "answer": "**Singapore's Public Housing Model: Strengths and Challenges**\n\n**Strengths:**\n1. **High Housing Coverage:** Singapore's public housing system accommodates approximately 80% of the population, ensuring a significant portion of residents have access to adequate housing.\n2. **Income and Ethnic Integration:** The 99-year lease system, combined with income ceilings and ethnic integration quotas, promotes diversity and prevents racial segregation, maintaining a mixed-income area.\n3. **Government Support:** Subsidies through grants and CPF help low-income families afford housing, reducing financial barriers and ensuring broader access.\n4. **Paper Wealth Creation:** Rising resale prices allow property owners to generate wealth without physical improvements, beneficial for long-term savings.\n\n**Challenges:**\n1. **Aging Estates:** Flats with leases expiring within 60 years face difficulty in selling and may not fully utilize CPF benefits, leading to depreciating asset issues.\n2. **Limited Redesign Initiatives:** Only about 4% of HDB blocks have adopted SERS, indicating limited government effort to rejuvenate housing stock and address aging properties effectively.\n\nThese factors highlight the strengths in housing accessibility and financial support, while challenges like aging leases and limited redevelopment efforts point to potential future issues in maintaining affordable housing.",
+    "latency_seconds": 98.38,
+    "tokens_generated": 851
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them afterward.",
+    "latency_seconds": 36.55,
+    "tokens_generated": 319
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, where chlorophyll absorbs light energy to split water molecules, producing oxygen, ATP, and NADPH. The key enzyme of the Calvin cycle is RuBisCO, which fixes carbon dioxide into glucose through a series of reactions. \n\nAnswer: The light-dependent reactions take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 46.78,
+    "tokens_generated": 412
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 26.06,
+    "tokens_generated": 227
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The human genome's percentage of DNA coding for proteins is approximately 1.5%, with about 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 42.47,
+    "tokens_generated": 371
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The increase in the consumption tax led to higher costs for dining in convenience stores, as food purchased for in-store consumption was taxed at 10%, while takeout was taxed at 8%. This price difference made dining in more expensive, prompting customers to opt for takeout to save money.",
+    "latency_seconds": 80.51,
+    "tokens_generated": 702
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Rising Construction Costs**: The cost of building single-family homes increased significantly due to inflation, with construction costs per square foot rising by approximately 40%. This made homes more expensive to build.\n\n2. **Slower Growth of Household Income**: Median household income only increased by 15% in real terms, which was insufficient to keep up with the rising construction costs, making homeownership less affordable.\n\n3. **Higher Home Price-to-Income Ratio**: The ratio of median home price to median household income increased from 3.5:1 to 5.5:1, indicating that homes became more expensive relative to people's incomes, making them harder to afford.\n\n4. **Changes in Home and Household Sizes**: The average size of homes increased, while household size decreased, leading to higher costs per person and contributing to the decline in homeownership rates.\n\nThese factors collectively made homeownership less accessible for young adults during this period.",
+    "latency_seconds": 112.44,
+    "tokens_generated": 939
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The manager should not adopt TDD now because the study indicates that teams that adopt TDD later only see 20-40% benefit, which is less than the maximum 40-90% reduction in defects seen when TDD is used from the start. Additionally, the initial implementation time for TDD is 15-35% longer, which could delay the project beyond the tight deadline. Therefore, it's better to continue with the current approach to meet the deadline.",
+    "latency_seconds": 61.94,
+    "tokens_generated": 486
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The decrease in water clarity in Lake Victoria after the introduction of the Nile perch was due to the decline of native cichlid fish, particularly those that served as algae-eaters, which are crucial for maintaining water clarity by consuming algae and deterring sedimentation. As the Nile perch population declines, further reductions in water clarity may occur due to the potential extinction of additional cichlid species that contribute to water clarity, exacerbating the ecological imbalance.",
+    "latency_seconds": 65.33,
+    "tokens_generated": 590
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy focuses on leveraging wind power as a key component of its renewable energy portfolio, achieving over 50% of electricity generation from wind. Achievements include employing 33,000 people in the wind industry, exporting \u20ac8 billion in technology annually, and having over 6,000 wind turbines, many owned by local communities. Key vulnerabilities involve high household electricity prices due to taxes and levies funding the green transition and reliance on interconnectors with Norway and Germany for grid stability when wind output is low.",
+    "latency_seconds": 48.48,
+    "tokens_generated": 447
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The shift to remote work during the COVID-19 pandemic presented several trade-offs across different stakeholders:\n\n**Benefits:**\n1. **Increased Productivity:** Some studies indicated that remote workers were 13% more productive on routine tasks.\n2. **Employee Satisfaction:** 87% of employees expressed a desire to maintain flexible work arrangements.\n3. **Cost Savings:** Companies may have reduced office-related expenses.\n\n**Costs:**\n1. **Commercial Real Estate Impact:** Vacancy rates in major cities rose to 18.2%, affecting businesses reliant on office workers, leading to revenue declines of 30-60%.\n2. **Reduced Collaboration:** Drop in patent co-authorships (25%) due to remote work, impacting collaborative work environments.\n3. **Social Isolation and Career Impact:** Younger workers reported higher rates of loneliness and slower career progression in fully remote settings.\n\nThese trade-offs highlight the dual nature of remote work, offering productivity gains and flexibility but also significant challenges in collaboration, real estate, and social well-being.",
+    "latency_seconds": 61.03,
+    "tokens_generated": 550
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "The key sustainability challenges of lithium-ion batteries include:\n\n1. **Water Consumption**: Mining lithium from brine deposits in regions like Chile and Argentina requires 2.2 million litres of water per tonne of lithium, posing environmental and community health issues in arid areas.\n\n2. **Child Labor and Unsafe Conditions**: Cobalt extraction in the Democratic Republic of Congo is linked to child labor and unsafe mining practices.\n\n3. **Low Recycling Rates**: Only about 5% of lithium-ion batteries are currently recycled globally, highlighting a significant sustainability gap.\n\n4. **Chemistry Dependence**: Lithium-ion batteries rely on non-recyclable chemistry, limiting their environmental impact.\n\nPromising solutions to address these challenges are:\n\n1. **Lithium Iron Phosphate (LFP) Batteries**: Eliminate cobalt and are gaining market share, offering a more sustainable alternative.\n\n2. **Sodium-Ion Batteries**: Potentially capable of eliminating lithium, enhancing sustainability.\n\n3. **Solid-State Batteries**: Show promise for higher energy density and longer lifespans, though they are not yet commercially viable.\n\nThese innovations aim to enhance sustainability and address the current challenges in lithium-ion battery production and recycling.",
+    "latency_seconds": 69.53,
+    "tokens_generated": 608
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "answer": "**Singapore's Public Housing Model: Strengths and Challenges**\n\n**Strengths:**\n1. **High Housing Coverage:** Singapore's public housing system accommodates approximately 80% of the population, ensuring a significant portion of residents have access to adequate housing.\n2. **Income and Ethnic Integration:** The 99-year lease system, combined with income ceilings and ethnic integration quotas, promotes diversity and prevents racial segregation, maintaining a mixed-income area.\n3. **Government Support:** Subsidies through grants and CPF help low-income families afford housing, reducing financial barriers and ensuring broader access.\n4. **Paper Wealth Creation:** Rising resale prices allow property owners to generate wealth without physical improvements, beneficial for long-term savings.\n\n**Challenges:**\n1. **Aging Estates:** Flats with leases expiring within 60 years face difficulty in selling and may not fully utilize CPF benefits, leading to depreciating asset issues.\n2. **Limited Redesign Initiatives:** Only about 4% of HDB blocks have adopted SERS, indicating limited government effort to rejuvenate housing stock and address aging properties effectively.\n\nThese factors highlight the strengths in housing accessibility and financial support, while challenges like aging leases and limited redevelopment efforts point to potential future issues in maintaining affordable housing.",
+    "latency_seconds": 100.16,
+    "tokens_generated": 851
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them afterward.",
+    "latency_seconds": 43.25,
+    "tokens_generated": 376
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, where chlorophyll absorbs light energy to split water molecules, producing oxygen and generating ATP and NADPH. The key enzyme in the Calvin cycle is RuBisCO, which fixes carbon dioxide into glucose through a series of reactions. \n\nAnswer: The light-dependent reactions take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 54.26,
+    "tokens_generated": 487
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 28.61,
+    "tokens_generated": 255
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The human genome, consisting of approximately 3.2 billion base pairs, has about 1.5% of its DNA coding for proteins. This corresponds to roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 41.02,
+    "tokens_generated": 365
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The tax change made taking food home more economical, as groceries and non-alcoholic beverages were taxed at a lower rate when taken out, prompting customers to opt for takeaway despite their intention to eat in.",
+    "latency_seconds": 63.8,
+    "tokens_generated": 543
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Increased Home Costs**: The cost of constructing single-family homes rose significantly, with construction costs per square foot increasing by 40%. This made homes more expensive relative to household income.\n\n2. **Lower Household Income Growth**: Median household income only grew by 15% in real terms, while home prices increased more substantially, leading to a higher home-price-to-income ratio.\n\n3. **Rising Home-Price-to-Income Ratio**: The ratio of median home price to median household income increased from 3.5:1 to 5.5:1, making homeownership more financially challenging.\n\nThese factors collectively contributed to the decline in homeownership rates among young adults during this period.",
+    "latency_seconds": 103.2,
+    "tokens_generated": 891
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "",
+    "latency_seconds": 115.84,
+    "tokens_generated": 1024
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The decrease in water clarity in Lake Victoria after the introduction of the Nile perch was primarily due to the loss of cichlid species, which played a crucial role in maintaining water clarity by consuming algae and detritus. As the Nile perch population declined due to overfishing, the absence of these cichlids led to increased algae and detritus, reducing water clarity. Conversely, as the Nile perch population continues to decline, the cichlids are likely to recover, which would help maintain or even restore water clarity by re-establishing their role in the ecosystem. \n\nAnswer: The water clarity decreased because the loss of cichlids, which were important for maintaining water clarity by consuming algae and detritus, led to increased organic matter in the water. As the Nile perch population declines, the cichlids may recover, potentially leading to an increase in water clarity.",
+    "latency_seconds": 114.56,
+    "tokens_generated": 1017
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy, initiated in the 1970s post-oil crisis, focuses on leveraging wind power to achieve a significant portion of its electricity generation\u2014over 50%. The strategy includes subsidies for wind cooperatives to foster public engagement and a robust wind industry employing 33,000 people and exporting \u20ac8 billion in turbine technology annually. Key achievements include 6,000 wind turbines, many owned by local communities. However, vulnerabilities exist with high household electricity prices and reliance on interconnectors with Norway and Germany, using their hydroelectric resources as a battery. This strategy balances environmental goals with economic and geopolitical considerations.",
+    "latency_seconds": 67.88,
+    "tokens_generated": 620
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The shift to remote work during the COVID-19 pandemic offered benefits such as increased productivity on routine tasks, higher employee satisfaction, and greater flexibility. However, it also posed costs, including a rise in commercial real estate vacancies, revenue declines for businesses dependent on office workers, and challenges like loneliness and slower career progression among younger workers.",
+    "latency_seconds": 36.53,
+    "tokens_generated": 332
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "The key sustainability challenges of lithium-ion batteries include excessive water consumption for lithium extraction (2.2 million litres per tonne), which impacts water scarcity in arid regions and affects indigenous communities reliant on local aquifers. Ethical concerns arise from cobalt extraction in the Democratic Republic of Congo, where artisanal mining has been linked to child labour and unsafe conditions. Additionally, low global recycling rates (5%) lead to environmental pollution and resource wastage. Promising solutions involve adopting lithium iron phosphate (LFP) batteries, which eliminate cobalt, sodium-ion batteries that could remove lithium, improving recycling infrastructure, and advancing solid-state batteries for higher energy density and longer lifespan.",
+    "latency_seconds": 60.94,
+    "tokens_generated": 550
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.5,
+    "answer": "Singapore's public housing model is notable for its high housing coverage, with 80% of the population residing in HDB flats. The 99-year lease system, combined with subsidies and CPF support, ensures affordability. Flats with fewer than 60 years remaining on their leases face challenges in resale and CPF eligibility, leading to an aging estate issue. While VERS and SERS aim to address this, only 4% of HDB blocks have adopted SERS, indicating limited implementation and potential stagnation in tackling the housing aging problem.",
+    "latency_seconds": 57.64,
+    "tokens_generated": 498
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them afterward.",
+    "latency_seconds": 28.68,
+    "tokens_generated": 262
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, where chlorophyll absorbs light energy to split water molecules, producing oxygen and generating ATP and NADPH. The key enzyme in the Calvin cycle is RuBisCO, which fixes carbon dioxide into glucose through a series of reactions. \n\nAnswer: The light-dependent reactions occur in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 56.71,
+    "tokens_generated": 517
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 30.67,
+    "tokens_generated": 286
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The human genome's percentage coding for proteins is 1.5%, with approximately 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 35.03,
+    "tokens_generated": 324
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The tax change incentivized customers to take out their food because the reduced tax rate on takeout made it more economical for them to purchase food intending to eat in-store. This financial incentive led to an increase in takeout orders, as customers began claiming they would take their food home despite their initial intention to eat at the store. \n\nAnswer: The tax change made takeout more affordable, encouraging customers to take their food home, leading to an increase in takeout orders.",
+    "latency_seconds": 62.96,
+    "tokens_generated": 584
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership rates among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Rising Home Prices**: The median home price to household income ratio increased from 3.5:1 to 5.5:1, indicating that home prices rose significantly faster than household income, making homeownership increasingly unaffordable.\n\n2. **Larger Home Sizes**: The average size of new single-family homes increased by 30%, leading to higher costs for young adults as they purchased larger homes that were less economically accessible given income growth.\n\n3. **Construction Cost Increases**: The cost of building new homes rose by 40%, contributing to higher home prices despite some growth in household income.\n\nThese factors combined made homeownership less feasible for young adults, leading to a decline in homeownership rates.",
+    "latency_seconds": 81.93,
+    "tokens_generated": 730
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The manager should not adopt TDD now because the project is already 60% complete and has a tight deadline. While TDD offers long-term benefits like reduced defects and lower maintenance costs, the initial delay of 15-35% could negatively impact meeting the deadline. Additionally, the study shows that late adopters only achieve 20-40% of the benefits, which may not be sufficient to justify the time investment given the current project constraints.",
+    "latency_seconds": 44.43,
+    "tokens_generated": 395
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "",
+    "latency_seconds": 112.73,
+    "tokens_generated": 1024
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy is characterized by a community-driven approach supported by government policies since the 1970s oil crisis. The country has achieved significant milestones, including generating over 50% of its electricity from wind, employing approximately 33,000 people in the wind industry, and exporting wind turbine technology worth over \u20ac8 billion annually. It also boasts a high number of wind turbines, many owned by local communities or cooperatives.\n\nHowever, Denmark faces key vulnerabilities, such as the highest household electricity prices in Europe, partly due to levies and taxes that fund the green transition. Additionally, its reliance on interconnectors with Norway (hydropower) and Germany to balance wind output, using Norwegian reservoirs as a giant battery, highlights a dependence on external energy sources.",
+    "latency_seconds": 58.14,
+    "tokens_generated": 536
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The shift to remote work during the COVID-19 pandemic presented several trade-offs across different stakeholders. On the positive side, remote workers demonstrated increased productivity on routine tasks, as evidenced by a Stanford study, and employees consistently expressed a strong desire for flexible work arrangements. Companies also benefited from reduced office-related expenses, such as rent and utilities, and lower health care costs due to decreased office attendance.\n\nHowever, collaboration and teamwork were significantly impacted, particularly for tasks requiring intensive interaction. Patent co-authorships dropped by 25% among colleagues in different buildings, indicating a decline in collaborative efforts. Additionally, the pandemic led to a rise in commercial real estate vacancies, with downtown businesses experiencing revenue declines of 30-60% due to reduced foot traffic. Younger workers reported higher rates of loneliness and slower career progression, highlighting potential well-being and long-term success challenges in fully remote settings.\n\nIn summary, while remote work offered productivity gains and flexibility for employees and cost savings for employers, it also led to collaboration challenges, increased vacancies, revenue losses, and potential negative impacts on younger workers' well-being.",
+    "latency_seconds": 75.34,
+    "tokens_generated": 695
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "The key sustainability challenges of lithium-ion batteries include excessive water consumption during production, reliance on child labor in cobalt sourcing, and low recycling rates leading to environmental degradation. Promising solutions involve the adoption of lithium iron phosphate (LFP) batteries, which eliminate cobalt, sodium-ion batteries that could reduce lithium dependency, and solid-state batteries for improved efficiency and longevity. These innovations aim to address the identified challenges and enhance sustainability.",
+    "latency_seconds": 55.64,
+    "tokens_generated": 510
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "answer": "Singapore's public housing model is notable for its high coverage of 80% of the population, supported by 99-year leases, income ceilings, ethnic integration, and government subsidies like grants and CPF. Resale prices have risen, creating paper wealth. However, the model faces challenges with depreciating asset issues, as flats with short leases are harder to sell and ineligible for full CPF benefits. Additionally, limited adoption of VERS and SERS, with only 4% of blocks selected for SERS, has hindered addressing aging estates, leading to market inefficiencies and reduced owner flexibility.",
+    "latency_seconds": 79.41,
+    "tokens_generated": 724
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them, including St Paul's Cathedral.",
+    "latency_seconds": 27.91,
+    "tokens_generated": 259
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 37.89,
+    "tokens_generated": 350
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 24.46,
+    "tokens_generated": 225
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The human genome contains approximately 3.2 billion base pairs, with about 1.5% coding for proteins. This equates to roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 45.77,
+    "tokens_generated": 426
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The tax change made taking out food more economical, as the 8% rate on takeout items reduced the after-tax cost, thereby encouraging customers to opt for takeout even if their intention was to eat in. This incentive likely led to an increase in takeout orders.",
+    "latency_seconds": 70.91,
+    "tokens_generated": 657
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to three primary factors:\n\n1. **Rising Home Prices Relative to Income**: The median home price to income ratio increased from 3.5:1 to 5.5:1, indicating that home prices became more expensive compared to the average income, making homeownership less affordable.\n\n2. **Increased Construction Costs**: The cost of building new homes rose by 40% per square foot, contributing to higher overall home prices despite a slight decrease in household size.\n\n3. **Median Income Growth Lag**: Median household income only grew by 15% in real terms, failing to keep pace with the rising costs of homes, thus widening the affordability gap.\n\nThese factors collectively made homeownership increasingly difficult for young adults, leading to a decline in homeownership rates.",
+    "latency_seconds": 81.53,
+    "tokens_generated": 761
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The manager should consider adopting TDD now. Despite the initial longer time investment, the study indicates that early adoption yields significant long-term benefits, such as reduced defects, lower maintenance costs, and better overall project health. Given that the project is 60% complete and has a tight deadline, the potential long-term gains from TDD could outweigh the initial delay, making it a beneficial choice for minimizing defects and future maintenance.",
+    "latency_seconds": 63.5,
+    "tokens_generated": 594
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The decrease in water clarity in Lake Victoria occurred because the introduction of the Nile perch led to a decline in native cichlid fish, which were responsible for consuming algae. As these cichlids declined, more algae remained in the water, contributing to reduced clarity. As the Nile perch population continues to decline, the cichlids may begin to recover, leading to a reduction in algae and an improvement in water clarity. \n\nAnswer: Water clarity decreased because the decline in cichlid fish, which ate algae, left more algae in the water. As the Nile perch population declines, the cichlids may recover, reducing algae and improving water clarity.",
+    "latency_seconds": 87.78,
+    "tokens_generated": 827
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy is characterized by a community-driven approach, leveraging subsidies and public buy-in to invest in wind power since the 1970s oil crisis. Key achievements include generating over 50% of electricity from wind, employing 33,000 people, and exporting \u20ac8 billion in wind technology annually. The strategy has resulted in over 6,000 wind turbines, many owned by local communities. However, vulnerabilities include high household electricity prices due to levies and taxes, as well as reliance on interconnectors with Norway and Germany, which may affect energy independence and cost structures.",
+    "latency_seconds": 53.36,
+    "tokens_generated": 506
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "The shift to remote work during the COVID-19 pandemic presented several trade-offs across different stakeholders:\n\n**Benefits:**\n1. **Increased Productivity:** Remote workers showed higher productivity on routine tasks compared to their co-located counterparts.\n2. **Employee Flexibility:** A majority of employees (87%) expressed a strong desire for flexible work arrangements.\n3. **Cost Savings:** Companies potentially saved on office expenses and gained access to a broader talent pool.\n\n**Costs:**\n1. **Reduced Collaboration:** The inability to work in the same physical space hindered team collaboration, leading to a decline in patent co-authorships.\n2. **Economic Impact:** Commercial real estate vacancies rose, affecting businesses reliant on office workers, such as restaurants and transit systems, resulting in revenue declines.\n3. **Well-being Impact:** Younger workers reported higher rates of loneliness and slower career progression in fully remote settings.\n\nThese trade-offs highlight the dual nature of remote work, offering productivity gains and flexibility but also posing challenges in collaboration, economic stability, and employee well-being.",
+    "latency_seconds": 54.58,
+    "tokens_generated": 518
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "**Key Sustainability Challenges of Lithium-Ion Batteries:**\n\n1. **Water Scarcity:** Lithium mining in regions like Chile and Argentina consumes 2.2 million litres of water per tonne of lithium, posing a significant environmental and ethical issue, especially in arid areas where indigenous communities rely on local water supplies.\n\n2. **Ethical Concerns with Cobalt Sourcing:** Cobalt is primarily extracted from the Democratic Republic of Congo, where artisanal mining operations have been linked to child labor and unsafe conditions, raising ethical and human rights issues.\n\n3. **Low Battery Recycling Rates:** Currently, only about 5% of lithium-ion batteries are recycled globally, highlighting the need for improved waste management and recycling infrastructure.\n\n4. **Material Reduction Needs:** The industry faces the challenge of reducing reliance on hazardous materials like cobalt and lithium, which are critical for sustainable battery production.\n\n**Promising Paths Toward Sustainability:**\n\n1. **Lithium Iron Phosphate (LFP) Batteries:** These batteries eliminate cobalt and are gaining market share, offering a sustainable alternative that addresses ethical sourcing concerns.\n\n2. **Sodium-Ion Batteries:** These could eventually eliminate lithium, further reducing environmental impact and harmful material usage.\n\n3. **Solid-State Batteries:** Although years from commercial viability, these offer higher energy density and longer lifespans, promising future sustainability advancements.\n\nThese innovations and solutions aim to address the current challenges and move toward a more sustainable battery production and recycling process.",
+    "latency_seconds": 80.75,
+    "tokens_generated": 787
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.3,
+    "top_p": 1.0,
+    "answer": "Singapore's public housing model offers several strengths, including a comprehensive social safety net that houses 80% of the population, ensuring affordability through income ceilings and 99-year leases. It also promotes diversity and integration with ethnic quotas and provides financial support via subsidies and CPF for mortgage payments. However, emerging challenges include the depreciating asset problem as flats age, making them harder to sell and ineligible for full CPF benefits. The government's efforts through VERS and SERS, though introduced to address this, have shown limited adoption, indicating potential gaps in effectively rejuvenating aging estates.",
+    "latency_seconds": 64.31,
+    "tokens_generated": 604
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them afterwards.",
+    "latency_seconds": 30.83,
+    "tokens_generated": 303
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, where chlorophyll absorbs light energy to split water molecules, producing oxygen and generating ATP and NADPH. The key enzyme of the Calvin cycle is RuBisCO, which fixes carbon dioxide into glucose. \n\nAnswer: The light-dependent reactions take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 56.85,
+    "tokens_generated": 490
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 29.15,
+    "tokens_generated": 279
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The human genome contains approximately 3.2 billion base pairs, with about 1.5% coding for proteins. This corresponds to roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 44.4,
+    "tokens_generated": 436
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The customers began claiming they would 'take out' their food because the reduced tax rate on takeout purchases made it more economical, incentivizing them to opt for takeout even when intending to eat in. The lower tax rate on groceries and non-alcoholic beverages, specifically applied to takeout, encouraged cost-saving, leading to increased takeout orders.",
+    "latency_seconds": 59.46,
+    "tokens_generated": 582
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership rates among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Rising Home Prices**: The median home price increased significantly relative to household income, making homeownership more expensive and less accessible.\n\n2. **Decreased Household Size**: The average household size decreased, leading to higher individual costs for housing, as fewer people shared living spaces.\n\n3. **Increased Construction Costs**: The cost per square foot of construction rose, further increasing the financial burden on potential homeowners.\n\n4. **Higher Home Price to Income Ratio**: The ratio of median home price to median household income increased, indicating a larger gap between what homes cost and what people could afford.\n\nThese factors collectively made homeownership more challenging for young adults, leading to a decline in homeownership rates.",
+    "latency_seconds": 83.96,
+    "tokens_generated": 814
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The manager should consider adopting TDD now, as it offers significant long-term benefits such as reduced defects, lower maintenance costs, and better debugging efficiency. However, the initial 15-35% longer implementation time might impact meeting the tight deadline. Given the project is halfway complete, the benefits could be maximized if TDD is adopted early. If the deadline is critical, the manager may prefer to finish on time despite the initial delay. If the deadline is flexible, the long-term advantages of TDD might justify the initial delay. Therefore, the decision hinges on balancing the immediate deadline concerns with the potential long-term efficiency gains.",
+    "latency_seconds": 78.51,
+    "tokens_generated": 791
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The water clarity in Lake Victoria decreased because the introduction of the Nile perch led to a decline in native cichlid fish, which were crucial in controlling algae populations. As these cichlids declined, algae grew unchecked, reducing water clarity. As the Nile perch population continues to decline, the absence of these controlling cichlids may further lead to increased algae growth, potentially causing water clarity to decrease even more. \n\nAnswer: Water clarity decreased because the decline of cichlid fish",
+    "latency_seconds": 103.36,
+    "tokens_generated": 1024
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy has been highly successful, with the country generating over 50% of its electricity from wind, employing approximately 33,000 people, and exporting wind turbine technology worth over \u20ac8 billion annually. Achievements include the installation of over 6,000 wind turbines, many owned by local communities or cooperatives. The strategy leverages government policies since the 1970s to reduce oil dependency, supported by subsidies for small wind cooperatives, fostering public buy-in.\n\nHowever, key vulnerabilities exist. Denmark faces the highest household electricity prices in Europe, partly due to levies and taxes funding the green transition. Additionally, the country heavily relies on interconnectors with Norway (hydropower) and Germany to balance energy supply, effectively using Norwegian reservoirs as a giant battery. This interdependence is a strategic approach but introduces vulnerability as it is contingent on neighboring resources.",
+    "latency_seconds": 53.86,
+    "tokens_generated": 542
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "The shift to remote work during the COVID-19 pandemic offered benefits such as increased productivity in routine tasks and flexibility for employees. It also reduced business-related impacts like decreased collaboration and lower patent co-authorship rates. However, it posed costs, including higher commercial real estate vacancies, reduced foot traffic in downtown areas, and negative effects on younger workers' loneliness and career progression. Companies reported mixed results, while employees and businesses reliant on office workers faced trade-offs in productivity, collaboration, and well-being.",
+    "latency_seconds": 35.15,
+    "tokens_generated": 354
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "**Summary of Key Sustainability Challenges and Promising Paths for Lithium-Ion Batteries**\n\n**Challenges:**\n1. **Water Consumption:** Lithium mining in regions like Chile and Argentina uses 2.2 million litres of water per tonne of lithium, posing a significant environmental impact, especially in arid areas where indigenous communities rely on local water resources.\n2. **Child Labor and Unsafe Conditions:** Cobalt extraction in the Democratic Republic of Congo is associated with child labor and unsafe mining practices, raising ethical concerns.\n3. **Low Recycling Rates:** Only about 5% of lithium-ion batteries are currently recycled globally, highlighting the need for sustainable battery management.\n4. **Material Dependency:** The reliance on non-rechargeable materials like cobalt and lithium could lead to supply chain vulnerabilities and further ethical dilemmas.\n\n**Promising Paths:**\n1. **Advancements in Battery Chemistry:** Transitioning to chemistries like lithium iron phosphate (LFP) and sodium-ion batteries, which eliminate the need for cobalt and lithium respectively, could address ethical and sustainability concerns.\n2. **Battery Recycling Initiatives:** Increasing recycling rates will support sustainable battery production and reduce waste.\n3. **Solid-State Batteries:** Development of solid-state batteries with higher energy density and longer lifespans, though currently not commercially viable, could offer significant sustainability benefits.\n4. **Water-Efficient Mining:** Implementing techniques to reduce water consumption in lithium extraction will mitigate environmental impacts.\n\nThese strategies aim to address the key sustainability challenges and move toward more ethical and sustainable battery production and usage.",
+    "latency_seconds": 73.56,
+    "tokens_generated": 728
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "answer": "Singapore's public housing model is notable for its comprehensive coverage, as approximately 80% of the population is housed through 99-year leases, ensuring affordable and accessible housing. The system includes income ceilings and ethnic integration quotas to promote diversity. Government support through grants and CPF helps mitigate affordability, and rising resale values provide paper wealth. However, the model faces challenges as flats' value depreciates with aging leases, making them harder to sell. Additionally, limited adoption of VERS and SERS to address aging estates could hinder infrastructure updates and long-term housing sustainability.",
+    "latency_seconds": 49.38,
+    "tokens_generated": 498
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them.",
+    "latency_seconds": 24.36,
+    "tokens_generated": 245
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 36.86,
+    "tokens_generated": 374
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 34.38,
+    "tokens_generated": 355
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The human genome codes for proteins in approximately 1.5% of its base pairs, which corresponds to roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 33.43,
+    "tokens_generated": 340
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The customers started claiming they would 'take out' their food because the tax change made it cheaper to purchase groceries at the store for takeaway, as it was taxed at 8%, compared to 10% for in-store consumption. This price difference incentivized customers to opt for taking out their food despite intending to eat in, influenced by the lower tax on groceries and the structured tax rates affecting both in-store and takeaway meals.",
+    "latency_seconds": 58.64,
+    "tokens_generated": 609
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several key factors:\n\n1. **Rising Home Prices**: The median home price to median household income ratio increased from 3.5:1 to 5.5:1, indicating that homes became more expensive relative to the income available to young adults.\n\n2. **Increased Construction Costs**: Construction costs per square foot rose by 40%, while median household income only grew by 15%. This significant increase in construction costs contributed to higher home prices.\n\n3. **Higher Home Price to Income Ratio**: The ratio of home price to income further strained the affordability of homeownership, making it less accessible for young adults.\n\nThese factors collectively made homeownership less affordable, leading to the observed decline in homeownership rates among young adults.",
+    "latency_seconds": 82.25,
+    "tokens_generated": 827
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The manager should consider adopting TDD despite the project being 60% complete and having a tight deadline. While TDD takes longer initially (15-35% extra time), the benefits\u2014such as 40-90% fewer defects, 60% less debugging time, and lower maintenance costs\u2014could significantly improve the project's quality and efficiency. Although the benefits might not be at their maximum (only 20-40% defect reduction for late adopters), the defect reduction and maintenance cost savings could offset the initial time investment, especially with a tight deadline. Therefore, adopting TDD now could still provide substantial long-term advantages.",
+    "latency_seconds": 70.63,
+    "tokens_generated": 693
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The decrease in water clarity in Lake Victoria after the introduction of the Nile perch was primarily due to the absence of apex predators, such",
+    "latency_seconds": 102.25,
+    "tokens_generated": 1024
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy, initiated post-1970s oil crisis, focuses on significant investment in wind power, with over 50% of electricity generated from it. Achievements include employing 33,000 people, exporting \u20ac8 billion in wind technology annually, and installing over 6,000 wind turbines, many owned by local communities. Key vulnerabilities are high household electricity prices due to taxes and levies, and reliance on interconnectors with Norway and Germany, which effectively uses Norwegian reservoirs as a battery but may face future challenges if Germany's support diminishes.",
+    "latency_seconds": 43.95,
+    "tokens_generated": 457
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The shift to remote work during the COVID-19 pandemic presented several trade-offs across various stakeholders. On the positive side, remote workers experienced increased productivity on routine tasks, flexibility was embraced by 87% of employees, and companies may have saved on office space costs. However, collaboration efforts were hindered, leading to a 25% decline in patent co-authorships between remote colleagues. Revenue decline of 30-60% was observed in businesses reliant on office workers. Additionally, commercial real estate vacancy rates rose to 18.2%, and downtown businesses saw significant revenue drops. Younger workers reported feelings of loneliness and slower career progression in fully remote settings. Companies reported mixed results, with productivity gains on routine tasks outweighing collaboration challenges, which could potentially stifle innovation.",
+    "latency_seconds": 46.09,
+    "tokens_generated": 480
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "**Summary of Key Sustainability Challenges and Promising Solutions for Lithium-Ion Batteries**\n\n**Challenges:**\n1. **Water Consumption for Lithium Mining:** Lithium extraction in Chile and Argentina requires significant water usage, posing a challenge in arid regions where indigenous communities depend on local water sources.\n2. **Child Labor in Cobalt Mining:** Cobalt is primarily sourced from the Democratic Republic of Congo, where artisanal mining operations have been associated with child labor and unsafe working conditions.\n3. **Low Recycling Rate:** Only approximately 5% of lithium-ion batteries are currently recycled globally, highlighting a need for improved battery recycling infrastructure.\n4. **Sustainability Concerns:** Current battery technologies face long-term environmental and ethical issues, necessitating innovation to address these challenges.\n\n**Promising Solutions:**\n1. **Lithium Iron Phosphate (LFP) Batteries:** These batteries eliminate the need for cobalt and are gaining market share as a sustainable alternative.\n2. **Sodium-Ion Batteries:** These could potentially eliminate lithium, offering a cleaner energy solution in the future.\n3. **Solid-State Batteries:** These batteries promise higher energy density and longer lifespan, though they are still in the research and development phase for commercial use.\n\nThis summary encapsulates the main sustainability challenges and innovative solutions aimed at enhancing the viability and ethical standards of lithium-ion batteries.",
+    "latency_seconds": 77.47,
+    "tokens_generated": 783
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "answer": "The strengths of Singapore's public housing model include its diversity, enforced by income ceilings and ethnic integration quotas, ensuring a mix of affordable housing for various income groups and ethnicities. It also provides long-term leases (99 years) and government support through grants and CPF, making housing accessible despite high costs. However, emerging challenges arise as older housing ages, with flats nearing the end of their leases becoming harder to sell and ineligible for full CPF benefits. The introduction of VERS and SERS aims to address this, but only about 4% of HDB blocks have utilized SERS, potentially leading to long-term housing market issues.",
+    "latency_seconds": 47.75,
+    "tokens_generated": 487
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and they were redesigned by Christopher Wren.",
+    "latency_seconds": 32.43,
+    "tokens_generated": 340
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 30.51,
+    "tokens_generated": 323
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 25.78,
+    "tokens_generated": 273
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The human genome codes for approximately 1.5% of its total base pairs, and this corresponds to roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 31.07,
+    "tokens_generated": 329
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Customers started claiming they would 'take out' their food at convenience stores after the tax change because the reduced tax rate of 8% applied to takeout items made it more economical for them. This financial incentive outweighed the perceived convenience of eating in-store, leading customers to opt for takeout despite their intentions.",
+    "latency_seconds": 56.67,
+    "tokens_generated": 594
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Increased Home Size**: The average size of a new single-family home grew significantly, raising the cost of homeownership.\n\n2. **Rising Construction Costs**: Construction costs per square foot increased by approximately 40%, making larger homes more expensive relative to household income.\n\n3. **Higher Home Price to Income Ratio**: The ratio of median home price to median household income rose from 3.5:1 to 5.5:1, indicating greater financial strain on potential homeowners.\n\n4. **Smaller Household Size**: The average household size decreased, potentially increasing the financial burden on a smaller group for a larger home.\n\nThese factors collectively made homeownership less affordable for young adults during the specified period.",
+    "latency_seconds": 61.94,
+    "tokens_generated": 625
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The manager should consider adopting TDD despite the initial delay because the defect reduction of 40-90% could significantly improve production quality. However, if the tight deadline cannot accommodate the additional time, it might be better to continue with the current approach to meet the deadline without a major upfront commitment.",
+    "latency_seconds": 78.58,
+    "tokens_generated": 801
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Water clarity in Lake Victoria decreased after the introduction of the Nile perch due to the decline of cichlid fish, which were previously the primary consumers of algae. As their population dropped, the algae grew unchecked, reducing water clarity. As the Nile perch population declines, the reemergence of previously extinct cichlid species, which are known to eat algae, could stabilize the ecosystem. This could lead to reduced algae accumulation and potentially an increase in water clarity as the algae levels decrease. \n\nAnswer: Water clarity decreased because the decline of cichlid fish led to increased algae growth. As the Nile perch population declines, the reemergence of cichlid species could stabilize water clarity by reducing algae accumulation.",
+    "latency_seconds": 73.61,
+    "tokens_generated": 757
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy has been highly successful, with over 50% of its electricity generated from wind since the 1970s oil crisis. The strategy leveraged government support for wind cooperatives, resulting in a thriving industry that employs 33,000 people annually and exports wind technology worth \u20ac8 billion. The country now hosts over 6,000 wind turbines, many owned by local communities. However, this success comes with vulnerabilities, including the highest household electricity prices in Europe due to levies supporting the green transition, and reliance on interconnectors with Norway and Germany, which may impact energy independence and geopolitical considerations.",
+    "latency_seconds": 49.12,
+    "tokens_generated": 520
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The shift to remote work during the COVID-19 pandemic offered benefits such as increased employee flexibility and job satisfaction, as well as potential productivity gains on routine tasks. However, it also posed costs, including reduced collaboration, lower patent co-authorship rates, and revenue declines for businesses reliant on office workers. Companies faced challenges in maintaining team cohesion, while the broader economy and society experienced disruptions, particularly affecting younger workers who reported loneliness and slower career progression.",
+    "latency_seconds": 37.21,
+    "tokens_generated": 395
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "The key sustainability challenges of lithium-ion batteries include excessive water consumption during production, particularly in regions like Chile and Argentina, where this water use impacts indigenous communities reliant on nearby aquifers. Additionally, the sourcing of cobalt for these batteries from the Democratic Republic of Congo involves unethical practices such as child labor and unsafe conditions. Another challenge is the low recycling rate of lithium-ion batteries, at only 5% globally, which hinders a sustainable circular economy.\n\nPromising paths toward addressing these issues include the adoption of alternatives like lithium iron phosphate (LFP) batteries, which eliminate cobalt, and sodium-ion batteries, which may eventually eliminate lithium usage. Furthermore, advancements in solid-state batteries, though still largely in development, offer higher energy density and longer lifespans, presenting a long-term solution for sustainability.",
+    "latency_seconds": 61.79,
+    "tokens_generated": 635
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "answer": "Singapore's public housing model offers several strengths, including high housing coverage (80% of the population), income-ceiling policies ensuring affordability, and ethnic integration promoting social cohesion. It leverages mandatory savings (CPF) for mortgage support, aiding affordability. However, challenges include the depreciating asset problem, where older flats (with leases under 60 years) are harder to sell and limit CPF benefits. Additionally, despite government initiatives like VERS and SERS, only about 4% of HDB blocks have been selected for redevelopment, indicating limited success in addressing aging estates.",
+    "latency_seconds": 54.36,
+    "tokens_generated": 575
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and they were redesigned by Christopher Wren.",
+    "latency_seconds": 24.01,
+    "tokens_generated": 254
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The light-dependent reactions of photosynthesis occur in the thylakoid membranes of chloroplasts, where chlorophyll absorbs light energy to split water molecules, producing oxygen, ATP, and NADPH. The key enzyme of the Calvin cycle is RuBisCO, which fixes carbon dioxide into glucose. \n\nAnswer: The light-dependent reactions take place in the thylakoid membranes of chloroplasts, and the key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 38.79,
+    "tokens_generated": 413
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 19.51,
+    "tokens_generated": 211
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The human genome, which contains approximately 3.2 billion base pairs, has about 1.5% of its DNA coding for proteins. This corresponds to roughly 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 31.11,
+    "tokens_generated": 336
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The tax change made certain items, such as food purchased at a convenience store or restaurant meals, slightly cheaper when taken away. This reduction in post-tax price influenced customers, making them more likely to opt for takeout despite intending to eat in. The lower tax rate on takeout items effectively decreased their overall cost, thereby encouraging customers to take their food home.",
+    "latency_seconds": 58.55,
+    "tokens_generated": 632
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Rising Home Prices**: The cost of constructing single-family homes increased significantly, leading to higher median home prices. This increase was not matched by a corresponding rise in household income, resulting in a higher ratio of home price to median household income (from 3.5:1 to 5.5:1).\n\n2. **Larger Home Sizes**: The average size of new homes grew from 1,740 to 2,261 square feet, increasing the financial burden on potential buyers, especially those with lower incomes.\n\n3. **Relative Increase in Construction Costs**: Construction costs per square foot rose by 40%, while household income only increased by 15% in real terms, exacerbating the affordability issue.\n\n4. **Impact of Household Income Growth**: Median household income increased by only 15%, which was insufficient to offset the significant rise in construction costs, further inflating the cost of homeownership.\n\nThese factors collectively made homeownership less accessible for young adults, leading to the observed decline in homeownership rates.",
+    "latency_seconds": 84.34,
+    "tokens_generated": 896
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The manager should consider adopting TDD now because, despite the initial 15-35% longer time to complete the implementation, the project is halfway complete and has a tight deadline. Adopting TDD now could help manage the remaining changes more efficiently, offering benefits like fewer defects, reduced debugging time, and lower maintenance costs. The study indicates that even late adopters saw significant benefits, making it a worthwhile decision to proceed with TDD now to leverage these advantages.",
+    "latency_seconds": 68.14,
+    "tokens_generated": 703
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The water clarity in Lake Victoria decreased because the decline of native cichlid fish, particularly those that were previously extinct and served as top predators by consuming algae, led to an accumulation of algae in the water, reducing clarity. As the Nile perch population continues to decline, the absence of these top predators may allow other species, including those that help maintain water clarity by consuming algae, to reappear, potentially improving water clarity again. \n\nAnswer: Water clarity decreased due to the loss of top predators that ate algae, and as the Nile perch population declines, water clarity might improve as these predators reappear.",
+    "latency_seconds": 80.53,
+    "tokens_generated": 841
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "Denmark's wind energy strategy is characterized by a community-driven approach, supported by government subsidies since the 1970s oil crisis, leading to high wind generation (over 50% of electricity), significant employment (33,000 people), and substantial exports (\u20ac8 billion annually). Key achievements include over 6,000 wind turbines, many owned by local communities. However, vulnerabilities exist with high household electricity prices due to levies and taxes, economic dependency on interconnectors with Norway and Germany, and potential grid stability risks from wind production fluctuations or geopolitical issues.",
+    "latency_seconds": 46.11,
+    "tokens_generated": 489
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The shift to remote work has shown mixed benefits and costs. On the positive side, remote workers demonstrated increased productivity on routine tasks, and employees expressed high satisfaction with flexible work arrangements. Companies also reported lower office-related expenses. However, the trade-offs include higher commercial real estate vacancies, revenue declines for businesses reliant on office workers, collaboration challenges, and social issues such as loneliness and slower career progression among younger workers.",
+    "latency_seconds": 38.46,
+    "tokens_generated": 409
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "The key sustainability challenges of lithium-ion batteries include excessive water consumption during lithium extraction, child labor in cobalt mining, and low recycling rates. Promising solutions are the adoption of lithium iron phosphate (LFP) batteries, which eliminate cobalt reliance, sodium-ion batteries that could eliminate lithium, and advancements in solid-state batteries for improved efficiency.",
+    "latency_seconds": 41.55,
+    "tokens_generated": 436
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "answer": "**Strengths of Singapore's Public Housing Model:**\n1. **High Housing Coverage:** Houses approximately 80% of Singapore's population, offering extensive access to affordable housing.\n2. **Long Lease Periods:** 99-year leases reduce immediate costs and provide long-term stability for residents.\n3. **Government Support:** Subsidies through grants and CPF help mitigate financial barriers for buyers.\n4. **Diverse Population Integration:** Ethnic integration quotas ensure a mixed-ethnic population, promoting social cohesion.\n\n**Emerging Challenges:**\n1. **Depreciating Asset Issues:** As leases age, especially those with fewer than 60 years remaining, selling becomes difficult and CPF benefits diminish.\n2. **Low Uptake of SERS:** Only about 4% of HDB blocks have been selected for SERS, indicating limited use of government intervention to address aging estates.",
+    "latency_seconds": 46.2,
+    "tokens_generated": 499
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them afterwards.\n\n**Answer:** 87 parish churches were destroyed, and Christopher Wren redesigned many of them.",
+    "latency_seconds": 33.77,
+    "tokens_generated": 371
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO, the most abundant protein on Earth.",
+    "latency_seconds": 22.21,
+    "tokens_generated": 245
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 23.45,
+    "tokens_generated": 257
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The human genome consists of approximately 3.2 billion base pairs, with about 1.5% coding for proteins. This equates to roughly 48 million base pairs, which translates to approximately 20,000 to 25,000 protein-coding genes, considering an average gene size of about 1,000 base pairs.\n\n**Answer:** The human genome codes for proteins in about 1.5%, corresponding to approximately 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 51.52,
+    "tokens_generated": 556
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The tax change likely caused customers to claim they would \"take out\" their food because the higher tax rate for in-store consumption (10%) made it more expensive compared to taking the same food home (8%). This price difference incentivized customers to opt for taking out, even if they intended to eat in, as it appeared financially more advantageous.",
+    "latency_seconds": 42.31,
+    "tokens_generated": 445
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The decline in homeownership rates among young adults between 1982 and 2020 can be attributed to several factors:\n\n1. **Rising Construction Costs**: The average size of single-family homes increased significantly from 1,740 to 2,261 square feet, and construction costs per square foot rose by approximately 40%. This made larger homes increasingly expensive to build.\n\n2. **Widening Home-Price to Income Ratio**: The ratio of median home price to median household income increased from 3.5:1 to 5.5:1. This indicates that home prices became more expensive relative to household income, making homeownership less affordable.\n\n3. **Lower Household Income Growth**: While household income grew by only 15% in real terms, this growth was insufficient to offset the significant rise in construction costs and home prices, further straining affordability.\n\n4. **Household Size Decrease**: The average household size decreased from 2.76 to 2.53 people, possibly leading to higher costs per person in larger homes, but this factor alone may not fully explain the decline.\n\n5. **Lower Income Levels of Young Adults**: Young adults, often in their career phases with lower disposable income, found it increasingly difficult to afford larger homes as home prices rose.\n\nThese factors combined made homeownership less accessible and affordable, particularly for young adults, leading to a decline in homeownership rates among this demographic.",
+    "latency_seconds": 89.27,
+    "tokens_generated": 930
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The manager should consider adopting TDD now. The study indicates that while the initial implementation might not take as long due to the project being 60% complete, TDD offers significant benefits in defect reduction (20-40%) and lower maintenance costs, especially in the long run. Although the benefits for late adopters are less than those that started earlier, the defect reduction and maintenance savings could outweigh the initial setup time, making it a beneficial decision despite the tight deadline.",
+    "latency_seconds": 73.76,
+    "tokens_generated": 756
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "",
+    "latency_seconds": 96.29,
+    "tokens_generated": 1024
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Denmark's wind energy strategy, initiated post-1970s oil crisis with subsidies for small wind cooperatives, has yielded significant achievements: 50% of electricity production from wind, 33,000 jobs, and \u20ac8 billion in wind turbine exports annually. The strategy, supported by community engagement, has led to widespread adoption with over 6,000 wind turbines. However, vulnerabilities include high household electricity prices due to taxes and levies, and reliance on interconnectors with Norway and Germany, which balances supply when wind output is low, potentially strain Norway's resources.",
+    "latency_seconds": 51.76,
+    "tokens_generated": 567
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "The shift to remote work presents a complex set of trade-offs, balancing benefits and costs across various stakeholders:\n\n**Benefits:**\n1. **Increased Flexibility and Productivity:** Employees gained flexibility, with productivity on routine tasks rising by 13% as per a Stanford study. This is particularly advantageous for roles requiring regular check-ins, though collaboration may be affected.\n2. **Employee Satisfaction:** Surveys indicate high satisfaction with flexible work arrangements, though potential concerns about other factors (not specified) may exist.\n\n**Costs:**\n1. **Decreased Collaboration:** Routine tasks may be more productive, but collaboration-intensive work and co-authorship rates (down 25%) suggest reduced teamwork and innovation.\n2. **Economic Impacts:** Commercial real estate vacancies rose to 18.2%, affecting businesses reliant on office workers, leading to significant revenue declines (30-60%) in sectors like restaurants and transit.\n3. **Social and Professional Challenges:** Younger workers reported higher loneliness and slower career progression, highlighting potential social and professional barriers in remote settings.\n\nOverall, the shift to remote work offers flexibility and productivity gains but risks collaboration, economic strain, and social implications, particularly for younger demographics.",
+    "latency_seconds": 72.32,
+    "tokens_generated": 789
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Lithium-ion batteries face key sustainability challenges, including excessive water consumption during lithium mining (2.2 million litres per tonne) in regions like Chile and Argentina, which can strain water resources in arid areas and harm indigenous communities reliant on the same aquifers. Additionally, cobalt extraction from the Democratic Republic of Congo is linked to child labour and unsafe mining conditions. Battery recycling rates are low, with only about 5% of lithium-ion batteries currently recycled globally. Promising solutions include the adoption of lithium iron phosphate (LFP) batteries, which eliminate cobalt usage and are gaining market share, as well as sodium-ion batteries that could eventually replace lithium. Solid-state batteries are another area of research, offering higher energy density and longer lifespans, though they remain years away from commercial viability.",
+    "latency_seconds": 38.58,
+    "tokens_generated": 424
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "answer": "Singapore's public housing model offers extensive coverage of the population, employing long lease agreements to manage supply and ensuring diverse community composition through income and ethnic integration policies. It provides financial support, including grants and CPF, to facilitate home affordability. However, the system faces challenges as flats with shorter remaining lease terms experience reduced marketability and depreciated values. Additionally, limited implementation of government-backed rededication schemes, such as VERS and SERS, hinders addressing aging housing stock effectively.",
+    "latency_seconds": 32.14,
+    "tokens_generated": 353
+  },
+  {
+    "question_id": "factual_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The Great Fire of London destroyed 87 parish churches, and Christopher Wren redesigned many of them, including St Paul's Cathedral.",
+    "latency_seconds": 26.22,
+    "tokens_generated": 284
+  },
+  {
+    "question_id": "factual_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The light-dependent reactions take place in the thylakoid membranes of chloroplasts. The key enzyme of the Calvin cycle is RuBisCO.",
+    "latency_seconds": 26.37,
+    "tokens_generated": 287
+  },
+  {
+    "question_id": "factual_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The continuous habitation of the ISS began in November 2000, and its solar arrays generate up to 120 kilowatts of electricity.",
+    "latency_seconds": 17.16,
+    "tokens_generated": 191
+  },
+  {
+    "question_id": "factual_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The human genome, comprising approximately 3.2 billion base pairs, has about 1.5% coding for proteins. This equates to roughly 48 million base pairs. The number of protein-coding genes ranges from 20,000 to 25,000. \n\n**Answer:** \n1.5% of the human genome codes for proteins, comprising approximately 20,000 to 25,000 protein-coding genes.",
+    "latency_seconds": 54.79,
+    "tokens_generated": 601
+  },
+  {
+    "question_id": "reasoning_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The tax change made in-store meals more expensive compared to takeout, influencing customers to opt for takeout despite convenience. The 2% tax difference, though small, made in-store meals relatively more costly, encouraging customers to take their food home for savings. This shift in perception, combined with the psychological impact of higher taxes on in-store meals, led to customers claiming they would take out their food. \n\nAnswer: The tax increase on in-store meals made them more expensive compared to takeout, encouraging customers to opt for takeout despite convenience.",
+    "latency_seconds": 67.78,
+    "tokens_generated": 746
+  },
+  {
+    "question_id": "reasoning_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The decline in homeownership among young adults between 1982 and 2020 can be attributed to two primary factors:\n\n1. **Rising Construction Costs:** Construction costs per square foot increased by approximately 40%, leading to higher home prices. This increase contributed to a significant rise in the median home price to median household income ratio from 3.5:1 to 5.5:1, making homeownership more expensive and less accessible, particularly for younger adults who may have lower income levels.\n\n2. **Relatively Stagnant Median Household Income:** While median household income grew by only 15% in real terms, this growth was insufficient to offset the higher construction costs, resulting in a higher burden on young adults in terms of affordability.\n\nThese factors combined made homeownership less feasible for young adults during this period.",
+    "latency_seconds": 75.14,
+    "tokens_generated": 806
+  },
+  {
+    "question_id": "reasoning_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The manager should consider adopting TDD now because, while it offers benefits such as reduced defects and lower maintenance costs, the defect reduction is lower (20-40%) compared to teams that adopted TDD earlier (40-90%). Additionally, the initial 15-35% longer implementation time could affect the project timeline, which is already 60% complete and has a tight deadline. The manager should evaluate whether the benefits will outweigh the initial delay and the associated costs, ensuring that the project timeline remains feasible. If possible, extending the timeline could enhance the benefits, but this decision should be based on the project's specific constraints and the team's readiness to adapt.",
+    "latency_seconds": 70.5,
+    "tokens_generated": 752
+  },
+  {
+    "question_id": "reasoning_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "",
+    "latency_seconds": 95.28,
+    "tokens_generated": 1024
+  },
+  {
+    "question_id": "synthesis_01",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Denmark's wind energy strategy centers on leveraging wind power as a significant portion of its electricity generation, achieving over 50% of its output. The strategy is supported by a strong community engagement and government subsidies, fostering local wind cooperatives and a robust wind industry that employs over 33,000 people and generates export revenue exceeding \u20ac8 billion annually. The country has successfully installed over 6,000 wind turbines, many owned by local communities.\n\nKey achievements include high energy production, a dynamic wind industry, and significant exports. However, vulnerabilities exist with high household electricity prices due to levies and taxes supporting green transition efforts. The country heavily relies on interconnectors with Norway and Germany to balance energy supply when wind output is low, effectively using Norwegian reservoirs as a large-scale battery. This interdependence could pose risks if neighboring energy supplies are impacted.",
+    "latency_seconds": 50.39,
+    "tokens_generated": 556
+  },
+  {
+    "question_id": "synthesis_02",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "The shift to remote work during COVID-19 brought significant trade-offs across various stakeholders. On the cost side, businesses saw reduced operational expenses and potential revenue declines due to downtown businesses and foot traffic dependency. Employees appreciated the flexibility, which some found beneficial, though they also reported issues like loneliness and slower career progression, particularly among younger workers. Companies faced mixed productivity results, with routine tasks being more efficient but collaboration efforts impacted. Despite these challenges, remote work provided some cost savings and flexibility benefits, while also highlighting the importance of maintaining collaboration and addressing employee well-being concerns.",
+    "latency_seconds": 46.05,
+    "tokens_generated": 489
+  },
+  {
+    "question_id": "synthesis_03",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "**Summary of Sustainability Challenges and Solutions for Lithium-Ion Batteries**\n\n**Challenges:**\n1. **Water Consumption:** Lithium mining in Chile and Argentina uses 2.2 million litres of water per tonne of lithium, posing environmental and water scarcity issues in arid regions.\n2. **Ethical Mining:** Cobalt extraction in the Democratic Republic of Congo is linked to child labour and unsafe conditions, raising ethical concerns.\n3. **Recycling Inefficiency:** Only about 5% of lithium-ion batteries are recycled globally, leading to significant environmental impacts and resource depletion.\n4. **Supply Chain Issues:** Dependence on importing cobalt and other minerals highlights vulnerabilities in the supply chain, affecting both sustainability and EV production.\n\n**Solutions:**\n1. **Chemistry Innovation:** Transitioning to safer, less resource-heavy chemistries like lithium iron phosphate (LFP) and sodium-ion batteries could reduce reliance on lithium and eliminate cobalt use.\n2. **Recycling Technology:** Investing in advanced battery recycling technologies could increase the percentage of recycled batteries, improving sustainability and reducing resource dependence.\n3. **Sustainable Mining:** Implementing ethical mining practices and regulations to address child labour and environmental harm in cobalt extraction.\n4. **Solid-State Batteries:** Exploring solid-state technologies for higher energy density and longer lifespan, despite current commercial viability challenges, could offer long-term sustainability benefits.\n\nThese measures aim to address environmental, ethical, and economic challenges while promoting sustainable battery technologies for the electric vehicle industry.",
+    "latency_seconds": 55.38,
+    "tokens_generated": 606
+  },
+  {
+    "question_id": "synthesis_04",
+    "model_name": "DeepSeek-R1-Distill 7B",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "answer": "Singapore's public housing model is renowned for its affordability and diversity, characterized by high occupancy rates (80% of the population), 99-year leases that keep costs low, and government subsidies for mortgage payments. Additionally, resale prices have increased, providing paper wealth. However, challenges arise as flats with shorter lease durations face decreased sellability and depreciating values, with limited success in implementing schemes to address aging estates.",
+    "latency_seconds": 43.28,
+    "tokens_generated": 481
+  }
+]

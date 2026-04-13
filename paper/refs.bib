@@ -1,0 +1,428 @@
+% ==========================================================================
+% Bibliography for: Good Enough? Quality, Latency, and Parameter Sensitivity
+% of Quantized 7-9B LLMs on Consumer Hardware
+% ==========================================================================
+
+% --- Quantisation foundations ---
+
+@inproceedings{dettmers_llmint8_2022,
+  title     = {{LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale}},
+  author    = {Dettmers, Tim and Lewis, Mike and Belkada, Younes and Zettlemoyer, Luke},
+  year      = {2022},
+  booktitle = {Advances in Neural Information Processing Systems},
+  doi       = {10.48550/arXiv.2208.07339},
+  url       = {https://arxiv.org/abs/2208.07339},
+}
+
+@inproceedings{frantar_gptq_2022,
+  title     = {{GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers}},
+  author    = {Frantar, Elias and Ashkboos, Saleh and Hoefler, Torsten and Alistarh, Dan},
+  year      = {2023},
+  booktitle = {International Conference on Learning Representations},
+  doi       = {10.48550/arXiv.2210.17323},
+  url       = {https://arxiv.org/abs/2210.17323},
+}
+
+@inproceedings{xiao_smoothquant_2023,
+  title     = {{SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models}},
+  author    = {Xiao, Guangxuan and Lin, Ji and Seznec, Mickael and Wu, Hao and Demouth, Julien and Han, Song},
+  year      = {2023},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  url       = {https://proceedings.mlr.press/v202/xiao23c.html},
+}
+
+@article{lin_awq_2023,
+  title   = {{AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration}},
+  author  = {Lin, Ji and Tang, Jiaming and Tang, Haotian and Yang, Shang and Chen, Wei-Ming and others},
+  year    = {2024},
+  journal = {Proceedings of Machine Learning and Systems},
+  doi     = {10.48550/arXiv.2306.00978},
+  url     = {https://arxiv.org/abs/2306.00978},
+}
+
+@article{gong_low_bit_2025,
+  title   = {{A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms}},
+  author  = {Gong, Ruihao and Ding, Yifu and Wang, Zining and Lv, Chengtao and Zheng, Xingyu and others},
+  year    = {2025},
+  journal = {Neural Networks},
+  doi     = {10.1016/j.neunet.2025.107856},
+  url     = {https://doi.org/10.1016/j.neunet.2025.107856},
+}
+
+% --- Quantised small model benchmarks ---
+
+@inproceedings{slmquant_2025,
+  title     = {{SLMQuant: Benchmarking Small Language Model Quantization for Practical Deployment}},
+  author    = {Wang, Jiacheng and Zeng, Yejun and Guo, Jinyang and Ma, Yuqing and Liu, Aishan and Liu, Xianglong},
+  year      = {2025},
+  booktitle = {ACM Rich Media with Generative AI Workshop},
+  doi       = {10.1145/3746262.3761973},
+  url       = {https://dl.acm.org/doi/10.1145/3746262.3761973},
+}
+
+@article{llama_cpp_quant_2026,
+  title   = {{Which Quantization Should I Use? A Unified Evaluation of llama.cpp Quantization on Llama-3.1-8B-Instruct}},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2601.14277},
+  doi     = {10.48550/arXiv.2601.14277},
+  url     = {https://arxiv.org/abs/2601.14277},
+}
+
+@inproceedings{quant_eval_acl_2024,
+  title     = {{A Comprehensive Evaluation of Quantization Strategies for Large Language Models}},
+  year      = {2024},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  doi       = {10.18653/v1/2024.findings-acl.726},
+  url       = {https://aclanthology.org/2024.findings-acl.726/},
+}
+
+@inproceedings{quant_task_difficulty_2025,
+  title     = {{Quantization Methods, Task Difficulty, and Model Size in Large Language Models}},
+  year      = {2025},
+  booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence},
+  url       = {https://www.ijcai.org/proceedings/2025/0902.pdf},
+}
+
+@article{small_lm_survey_2024,
+  title   = {{Small Language Models: Survey, Measurements, and Insights}},
+  author  = {Lu, Zhenyan and Wang, Xiang and Guo, Bingning and Gao, Jiajun},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2409.15790},
+  doi     = {10.48550/arXiv.2409.15790},
+  url     = {https://arxiv.org/abs/2409.15790},
+}
+
+@misc{red_hat_quant_2024,
+  title        = {{We ran over half a million evaluations on quantized LLMs: here's what we found}},
+  year         = {2024},
+  howpublished = {Red Hat Developer},
+  url          = {https://developers.redhat.com/articles/2024/10/17/we-ran-over-half-million-evaluations-quantized-llms},
+}
+
+% --- Sampling parameters and decoding ---
+
+@inproceedings{holtzman_curious_2020,
+  title     = {{The Curious Case of Neural Text Degeneration}},
+  author    = {Holtzman, Ari and Buys, Jan and Du, Li and Forbes, Maxwell and Choi, Yejin},
+  year      = {2020},
+  booktitle = {International Conference on Learning Representations},
+  doi       = {10.48550/arXiv.1904.09751},
+  url       = {https://arxiv.org/abs/1904.09751},
+}
+
+@article{wiher_decoding_2022,
+  title   = {{On Decoding Strategies for Neural Text Generators}},
+  author  = {Wiher, Gian and Meister, Clara and Cotterell, Ryan},
+  year    = {2022},
+  journal = {Transactions of the Association for Computational Linguistics},
+  volume  = {10},
+  pages   = {997--1012},
+  doi     = {10.1162/tacl_a_00502},
+  url     = {https://doi.org/10.1162/tacl_a_00502},
+}
+
+@inproceedings{hewitt_truncation_2022,
+  title     = {{Truncation Sampling as Language Model Desmoothing}},
+  author    = {Hewitt, John and Manning, Christopher D. and Liang, Percy},
+  year      = {2022},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2022},
+  doi       = {10.18653/v1/2022.findings-emnlp.249},
+  url       = {https://doi.org/10.18653/v1/2022.findings-emnlp.249},
+}
+
+@article{renze_effect_2024,
+  title   = {{The Effect of Sampling Temperature on Problem Solving in Large Language Models}},
+  author  = {Renze, Matthew and Guven, Erhan},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2402.05201},
+  doi     = {10.48550/arXiv.2402.05201},
+  url     = {https://arxiv.org/abs/2402.05201},
+}
+
+@inproceedings{renze_good_2024,
+  title     = {{The Good, The Bad, and The Greedy: Evaluation of LLMs Should Not Ignore Non-Determinism}},
+  author    = {Renze, Matthew and Guven, Erhan},
+  year      = {2025},
+  booktitle = {Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics},
+  doi       = {10.48550/arXiv.2407.10457},
+  url       = {https://arxiv.org/abs/2407.10457},
+}
+
+@article{hot_or_cold_2025,
+  title   = {{Exploring the Impact of Temperature on Large Language Models: Hot or Cold?}},
+  year    = {2025},
+  journal = {Procedia Computer Science},
+  doi     = {10.48550/arXiv.2506.07295},
+  url     = {https://arxiv.org/abs/2506.07295},
+}
+
+@article{clinical_temp_2024,
+  title   = {{Exploring Temperature Effects on Large Language Models Across Various Clinical Tasks}},
+  year    = {2024},
+  journal = {medRxiv},
+  doi     = {10.1101/2024.07.22.24310824},
+  url     = {https://www.medrxiv.org/content/10.1101/2024.07.22.24310824v1},
+}
+
+@article{minh_minp_2024,
+  title   = {{Turning Up the Heat: Min-p Sampling for Creative and Coherent LLM Outputs}},
+  author  = {Minh, Nguyen Nhat and Baker, Andrew and Neo, Clement and Roush, Allen and Kirsch, Andreas and Shwartz-Ziv, Ravid},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2407.01082},
+  doi     = {10.48550/arXiv.2407.01082},
+  url     = {https://arxiv.org/abs/2407.01082},
+}
+
+@article{sample_smart_2025,
+  title   = {{Sample Smart, Not Hard: Correctness-First Decoding for Better Reasoning in LLMs}},
+  year    = {2025},
+  journal = {arXiv preprint arXiv:2510.05987},
+  doi     = {10.48550/arXiv.2510.05987},
+  url     = {https://arxiv.org/abs/2510.05987},
+}
+
+@article{zhu_dynamic_temp_2024,
+  title   = {{Improving Code Generation by Dynamic Temperature Sampling}},
+  author  = {Zhu, Yuqi and Li, Jia},
+  year    = {2024},
+  journal = {arXiv preprint},
+  url     = {https://www.semanticscholar.org/paper/702486c79cdd061d0cfab0e91fe633e831e004a2},
+}
+
+@article{wang_contextual_temp_2024,
+  title   = {{Contextual Temperature for Language Modeling}},
+  author  = {Wang, Pei-Hsin and Hsieh, Cho-Jui},
+  year    = {2024},
+  journal = {arXiv preprint},
+  url     = {https://www.semanticscholar.org/paper/f617f7ba4040d6e85b384685da09fed35c841280},
+}
+
+% --- LLM-as-judge methodology ---
+
+@inproceedings{zheng_judging_2023,
+  title     = {{Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena}},
+  author    = {Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric and Zhang, Hao and Gonzalez, Joseph and Stoica, Ion},
+  year      = {2023},
+  booktitle = {Advances in Neural Information Processing Systems: Datasets and Benchmarks Track},
+  doi       = {10.48550/arXiv.2306.05685},
+  url       = {https://arxiv.org/abs/2306.05685},
+}
+
+@article{li_survey_judge_2024,
+  title   = {{A Survey on LLM-as-a-Judge}},
+  author  = {Li, Jiawei and Sun, Chengyu and Mao, Siqing and Hu, Ziniu and Li, Lei},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2411.15594},
+  doi     = {10.48550/arXiv.2411.15594},
+  url     = {https://arxiv.org/abs/2411.15594},
+}
+
+@article{li_judges_survey_2024,
+  title   = {{LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods}},
+  author  = {Li, Haitao and Chen, Qianqian and Zhang, Jiahui and Wang, Guochao and Li, Yiran},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2412.05579},
+  doi     = {10.48550/arXiv.2412.05579},
+  url     = {https://arxiv.org/abs/2412.05579},
+}
+
+@article{gu_survey_judge_2026,
+  title   = {{A Survey on LLM-as-a-Judge}},
+  author  = {Gu, Jiawei and Jiang, Xuhui and Shi, Zhichao and Tan, Hexiang and Zhai, Xuehao and others},
+  year    = {2026},
+  journal = {The Innovation},
+  doi     = {10.1016/j.xinn.2025.101253},
+  url     = {https://doi.org/10.1016/j.xinn.2025.101253},
+}
+
+@inproceedings{panickssery_self_2024,
+  title     = {{Self-Preference Bias in LLM-as-a-Judge}},
+  author    = {Panickssery, Arjun and Bowman, Samuel and Feng, Shi},
+  year      = {2024},
+  booktitle = {Advances in Neural Information Processing Systems},
+  doi       = {10.48550/arXiv.2410.21819},
+  url       = {https://arxiv.org/abs/2410.21819},
+}
+
+@inproceedings{wang_not_fair_2024,
+  title     = {{Large Language Models are not Fair Evaluators}},
+  author    = {Wang, Peiyi and Li, Lei and Chen, Liang and Cai, Zefan and Zhu, Dawei and others},
+  year      = {2024},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2024.acl-long.511/},
+}
+
+@article{wang_position_bias_2024,
+  title   = {{Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge}},
+  author  = {Wang, Peiyi and Li, Lei and Chen, Liang and Cai, Feifan and Zhu, Dawei and Lin, Binghuai and Cao, Yunbo and Liu, Qi and Liu, Tianyu and Sui, Zhifang},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2406.07791},
+  doi     = {10.48550/arXiv.2406.07791},
+  url     = {https://arxiv.org/abs/2406.07791},
+}
+
+@article{dev_judge_harness_2026,
+  title   = {{Judge Reliability Harness: Stress Testing the Reliability of LLM Judges}},
+  author  = {Dev, Sunishchal and Sloan, Andrew and Kavner, Joshua and Kong, Nicholas and Sandler, Morgan},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2603.05399},
+  doi     = {10.48550/arXiv.2603.05399},
+  url     = {https://arxiv.org/abs/2603.05399},
+}
+
+@article{empirical_llm_judge_2025,
+  title   = {{An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluation Reliability}},
+  year    = {2025},
+  journal = {arXiv preprint arXiv:2506.13639},
+  doi     = {10.48550/arXiv.2506.13639},
+  url     = {https://arxiv.org/abs/2506.13639},
+}
+
+@inproceedings{multilingual_judge_2025,
+  title     = {{How Reliable is Multilingual LLM-as-a-Judge?}},
+  year      = {2025},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2025},
+  doi       = {10.18653/v1/2025.findings-emnlp.587},
+  url       = {https://aclanthology.org/2025.findings-emnlp.587.pdf},
+}
+
+% --- Verbosity and length bias ---
+
+@article{saito_verbosity_2023,
+  title   = {{Verbosity Bias in Preference Labeling by Large Language Models}},
+  author  = {Saito, Keita},
+  year    = {2023},
+  journal = {arXiv preprint arXiv:2310.10076},
+  doi     = {10.48550/arXiv.2310.10076},
+  url     = {https://arxiv.org/abs/2310.10076},
+}
+
+@article{verbosity_veracity_2024,
+  title   = {{Verbosity $\neq$ Veracity: Demystify Verbosity Compensation Behavior of Large Language Models}},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2411.07858},
+  doi     = {10.48550/arXiv.2411.07858},
+  url     = {https://arxiv.org/abs/2411.07858},
+}
+
+@article{length_bias_2024,
+  title   = {{Explaining Length Bias in LLM-Based Preference Evaluations}},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2407.01085},
+  doi     = {10.48550/arXiv.2407.01085},
+  url     = {https://arxiv.org/abs/2407.01085},
+}
+
+@article{length_bias_rlhf_2025,
+  title   = {{Mitigating Length Bias in RLHF through a Causal Lens}},
+  year    = {2025},
+  journal = {arXiv preprint arXiv:2511.12573},
+  doi     = {10.48550/arXiv.2511.12573},
+  url     = {https://arxiv.org/abs/2511.12573},
+}
+
+% --- Edge inference and Apple Silicon ---
+
+@article{apple_silicon_production,
+  title   = {{Production-Grade Local LLM Inference on Apple Silicon: A Comparative Study of MLX, MLC-LLM, Ollama, llama.cpp, and PyTorch MPS}},
+  author  = {Rajesh, Varun and Jodhpurkar, Om and Anbuselvan, Pooja and Singh, Mantinder and Jallepali, Ashok and others},
+  year    = {2025},
+  journal = {arXiv preprint arXiv:2511.05502},
+  doi     = {10.48550/arXiv.2511.05502},
+  url     = {https://arxiv.org/abs/2511.05502},
+}
+
+@article{apple_silicon_sigmetrics,
+  title   = {{Benchmarking and Characterization of Large Language Model Inference on Apple Silicon}},
+  year    = {2025},
+  journal = {Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  doi     = {10.1145/3771563},
+  url     = {https://dl.acm.org/doi/10.1145/3771563},
+}
+
+@article{apple_silicon_native_2026,
+  title   = {{Native LLM and MLLM Inference at Scale on Apple Silicon}},
+  author  = {Barrios, Wayner},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2601.19139},
+  doi     = {10.48550/arXiv.2601.19139},
+  url     = {https://arxiv.org/abs/2601.19139},
+}
+
+@article{rooflinebench_2026,
+  title   = {{RooflineBench: A Benchmarking Framework for On-Device LLMs via Roofline Analysis}},
+  author  = {Bi, Zhen and Chen, Xueshu and Sun, Luoyang and Yao, Yuhang and Shen, Qing and others},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2602.11506},
+  doi     = {10.48550/arXiv.2602.11506},
+  url     = {https://arxiv.org/abs/2602.11506},
+}
+
+@misc{apple_coreml_llama_2024,
+  title        = {{On-device Llama 3.1 with Core ML}},
+  year         = {2024},
+  howpublished = {Apple Machine Learning Research},
+  url          = {https://machinelearning.apple.com/research/core-ml-on-device-llama},
+}
+
+@article{mobile_platforms_2024,
+  title   = {{Understanding Large Language Models in Your Pockets: Performance Study on COTS Mobile Devices}},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2410.03613},
+  doi     = {10.48550/arXiv.2410.03613},
+  url     = {https://arxiv.org/abs/2410.03613},
+}
+
+@misc{epoch_open_weights_2025,
+  title        = {{Open-weight models lag state-of-the-art by around 3 months on average}},
+  year         = {2025},
+  howpublished = {Epoch AI},
+  url          = {https://epoch.ai/data-insights/open-weights-vs-closed-weights-models/},
+}
+
+@misc{epoch_consumer_2025,
+  title        = {{Frontier AI capabilities can be run at home within a year or less}},
+  year         = {2025},
+  howpublished = {Epoch AI},
+  url          = {https://epoch.ai/data-insights/consumer-gpu-model-gap/},
+}
+
+% --- RAG and grounded QA benchmarks ---
+
+@inproceedings{crag_2024,
+  title     = {{CRAG -- Comprehensive RAG Benchmark}},
+  author    = {Yang, Xiao and Sun, Kai and Xin, Hao and Sun, Yushi and Bhalla, Nikita and others},
+  year      = {2024},
+  booktitle = {Advances in Neural Information Processing Systems: Datasets and Benchmarks Track},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/1435d2d0fca85a84d83ddcb754f58c29-Abstract-Datasets_and_Benchmarks_Track.html},
+}
+
+@inproceedings{garage_2025,
+  title     = {{GaRAGe: A Benchmark with Grounding Annotations for RAG Evaluation}},
+  author    = {Sorodoc, Ionut Teodor and Ribeiro, Leonardo F. R. and Blloshmi, Rexhina and Davis, Christopher and de Gispert, Adri\`{a}},
+  year      = {2025},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2025},
+  doi       = {10.18653/v1/2025.findings-acl.875},
+  url       = {https://doi.org/10.18653/v1/2025.findings-acl.875},
+}
+
+% --- Software and tools ---
+
+@misc{llama_cpp,
+  title        = {{llama.cpp}},
+  author       = {Gerganov, Georgi},
+  year         = {2023},
+  howpublished = {GitHub},
+  url          = {https://github.com/ggerganov/llama.cpp},
+}
+
+% --- Other cited works ---
+
+@article{deepseek_r1_2025,
+  title   = {{DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning}},
+  author  = {{DeepSeek-AI}},
+  year    = {2025},
+  journal = {arXiv preprint arXiv:2501.12948},
+  doi     = {10.48550/arXiv.2501.12948},
+  url     = {https://arxiv.org/abs/2501.12948},
+}

@@ -1,0 +1,46 @@
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Claude Code local state
+.claude/
+CLAUDE.md
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Editors / IDEs
+.idea/
+.vscode/
+
+# Planning / dev-process docs (kept locally, not published)
+planning/
+
+# Earlier paper drafts (v1, v2) — kept locally, not published
+paper/drafts/
+
+# LaTeX build artefacts (keep .tex, .pdf; ignore intermediates)
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
