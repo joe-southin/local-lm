@@ -621,7 +621,7 @@ Figure 1 plots mean composite score (average of accuracy, completeness, and
 coherence) against temperature for each model, split by task category. Error
 bars show $\pm 1$ standard error.
 
-![Composite score vs temperature by task category. Error bars show $\pm 1$ SE. Factual questions are near-ceiling for all models. Reasoning and synthesis show clear model separation. Chain-of-thought exposes a large frontier--local gap (Opus approximately 5.0; local models 2.5--3.8).](fig1_score_vs_temperature.pdf){#fig:temp width=100%}
+![Composite score vs temperature by task category, for one representative configuration per model family (Q4 variants where applicable; the Q5 and Q8 variants tracked by Section 4.8 follow their Q4 counterparts within noise and are omitted from this view to reduce visual clutter). Error bars show $\pm 1$ SE. Factual questions are near-ceiling for all models. Reasoning and synthesis show clear model separation, with DeepSeek degrading at higher temperatures on reasoning. Chain-of-thought exposes a large frontier--local gap (Opus approximately 5.0; local models 2.7--3.5) with DeepSeek consistently weakest.](fig1_score_vs_temperature.pdf){#fig:temp width=100%}
 
 The central finding is that **temperature has minimal effect on mean quality
 but substantially increases variance** across the extractive categories

@@ -134,8 +134,17 @@ def fig_score_vs_temperature(scores, out_dir):
     cat_titles = {"factual": "Factual", "reasoning": "Reasoning",
                   "synthesis": "Synthesis", "cot": "Chain-of-thought"}
 
+    # Figure 1 shows one representative configuration per model family (Q4
+    # where applicable). Q5/Q8 quantisation variants are covered in Section 4.8
+    # and do not add visual information here; including them over-plots.
+    included = {"Claude Opus 4.6", "Qwen 2.5 7B", "Gemma 4 E4B Q4",
+                "Llama 3.1 8B Q4", "GLM-4-9B-Chat Q4",
+                "DeepSeek-R1-Distill 7B"}
+
     data = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
     for s in scores:
+        if s["model_name"] not in included:
+            continue
         # Exclude failure scores (any dimension <= 0 indicates timeout or parse error)
         if s["accuracy"] <= 0 or s["completeness"] <= 0 or s["coherence"] <= 0:
             continue
@@ -144,14 +153,13 @@ def fig_score_vs_temperature(scores, out_dir):
         if cat in categories:
             data[s["model_name"]][cat][s["temperature"]].append(composite)
 
-    # Order models: Opus first, then by type
     model_order = ["Claude Opus 4.6", "Qwen 2.5 7B", "Gemma 4 E4B Q4",
-                   "Gemma 4 E4B Q8", "Llama 3.1 8B Q4", "Llama 3.1 8B Q5",
-                   "GLM-4-9B-Chat Q4", "DeepSeek-R1-Distill 7B"]
+                   "Llama 3.1 8B Q4", "GLM-4-9B-Chat Q4",
+                   "DeepSeek-R1-Distill 7B"]
     models_present = [m for m in model_order if m in data]
 
     n_models = len(models_present)
-    jitter_width = 0.06
+    jitter_width = 0.05
     offsets = np.linspace(-jitter_width / 2, jitter_width / 2, n_models)
 
     fig, axes = plt.subplots(2, 2, figsize=(6.8, 5.5), sharex=True, sharey=True)
@@ -172,7 +180,7 @@ def fig_score_vs_temperature(scores, out_dir):
             label = SHORT_NAMES.get(model, model) if idx == 0 else None
             ax.errorbar(jittered, means, yerr=sems, label=label,
                         color=style["color"], marker=style["marker"],
-                        capsize=2, capthick=0.6, linewidth=0.9, markersize=4)
+                        capsize=2, capthick=0.6, linewidth=1.0, markersize=5)
 
         ax.set_title(cat_titles[cat], fontsize=10)
         ax.set_xticks([0.0, 0.3, 0.7, 1.0])
